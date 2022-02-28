@@ -1,0 +1,916 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The uncharitable informer charitably informed, that sycophancy is a sin, pernicious to all, but most of all to himself. By Faithfull Teate, minister of the Gospel of peace and truth.</title>
+            <author>Teate, Faithful, b. 1621.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1660</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 121 KB of XML-encoded text transcribed from 43 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A95612</idno>
+            <idno type="STC">Wing T619</idno>
+            <idno type="STC">Thomason E1921_1</idno>
+            <idno type="STC">ESTC R209965</idno>
+            <idno type="EEBO-CITATION">99868810</idno>
+            <idno type="PROQUEST">99868810</idno>
+            <idno type="VID">121166</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A95612)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 121166)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 239:E1921[1])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The uncharitable informer charitably informed, that sycophancy is a sin, pernicious to all, but most of all to himself. By Faithfull Teate, minister of the Gospel of peace and truth.</title>
+                  <author>Teate, Faithful, b. 1621.</author>
+               </titleStmt>
+               <extent>[2], 81, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by William Bladen, by order,</publisher>
+                  <pubPlace>Dublin :</pubPlace>
+                  <date>anno Dom. 1660.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Annotation on Thomason copy: "Aprill".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+               <term>Informers --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-11</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2011-11</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:121166:1" rendition="simple:additions"/>
+            <p>The Uncharitable INFORMER Charitably <hi>Informed,</hi> That SYCOPHANCY is a Sin, pernicious to all, but moſt of all to himſelf.</p>
+            <p>By <hi>Faithfull Teate,</hi> Miniſter of the Go<g ref="char:EOLhyphen"/>ſpel of Peace and Truth.</p>
+            <q>
+               <p>Thou didſt it ſecretly, but I will do this thing before all Iſrael and before the ſun.</p>
+               <p>Si accuſaſse ſufficiat, quis erit innocens?</p>
+            </q>
+            <p>
+               <hi>D<g ref="char:V">Ʋ</g>BLIN,</hi> Printed by WILLIAM BLADEN, by Order, <hi>Anno Dom.</hi> 1660.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:121166:2"/>
+            <pb n="1" facs="tcp:121166:2"/>
+            <head>TO THE Principal OFFICERS of the <hi>Engliſh Army</hi> Within theſe Three Nations.</head>
+            <p>
+               <seg rend="decorInit">N</seg>Othing, I think, but neceſſity and ſenſe of duty could have made my thoughts on this theme, publick at this time: I am ſenſible how critical both are and how apt, as <hi>he that did the wrong</hi> was to ask <hi>Moſes, Who made thee a judg?</hi>
+               <note place="margin">Exod. 2.13, 14.</note> ſuch will be to demand, Who made me a Re<g ref="char:EOLhyphen"/>prover? and to ſay (though perſonally unknown to, or unthought of by me) as the Lawyers did to Chriſt, when he re<g ref="char:EOLhyphen"/>proved the Phariſees, <hi>Maſter,</hi>
+               <note place="margin">Luke 11.44, 45.</note> 
+               <hi>thus ſay<g ref="char:EOLhyphen"/>ing thou reproacheſt us alſo.</hi> Yet finding <hi>Ireland</hi> replete with angry humors, and diſtempered with <hi>tongue-dyſenteries,</hi> ha<g ref="char:EOLhyphen"/>ving licence here for ſome time <hi>ad practi<g ref="char:EOLhyphen"/>candum,</hi> I have reckoned my ſelf obliged
+<pb n="2" facs="tcp:121166:3"/> (eſpecially conſidering that to that grand text againſt <hi>Tale-bearing,</hi> is immediately added,<note place="margin">Lev. 19.16, 17.</note> 
+               <hi>Thou ſhalt not hate thy Brother in thine heart, thou ſhalt in any wiſe re<g ref="char:EOLhyphen"/>buke thy neighbor, and not ſuffer ſin upon him)</hi> to offer ſomething to the cure; though expecting little thanks from the Patient, through the frowardneſs of his diſeaſe, and neceſſary harſhneſs of this phyſick; for when a <hi>Titus</hi> hath to deal with <hi>ill-tongu'd Cretians,</hi>
+               <note place="margin">Tit. 1.12, 13.</note> he muſt be <hi>ſharp, that they may be ſound.</hi>
+            </p>
+            <p>Now the reaſons that induced me to preſent this to your view, are</p>
+            <p n="1">1. Becauſe there are temptations pe<g ref="char:EOLhyphen"/>culiar to ſeveral conditions and ſorts of men, and to whom thoſe of this kind are eſpecially incident, you may gather from John Baptiſt,<note place="margin">Luk. 3.14. <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> when the Souldiers ask'd him, <hi>And what ſhall we do? He ſaid unto them, Do violence to no man, neither ac<g ref="char:EOLhyphen"/>cuſe any falſly,</hi> or <hi>get nothing by ſyco<g ref="char:EOLhyphen"/>phancie.</hi> What that is, and the evil of it, is here diſcourſed.</p>
+            <p n="2">2 Becauſe the grand accuſer (to whom all falſe and malitious Informers are ſo nearly related) hath the name <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which ſignifies moſt properly ſuch an Accuſer, as calumniates others before
+<pb n="3" facs="tcp:121166:3"/> great Perſons,<note place="margin">Rev. 12.10.</note> as Satan the <hi>Accuſer be<g ref="char:EOLhyphen"/>fore the Lord.</hi> And ſo the greater any of you are, the more in danger of being haunted by ſuch <hi>evil spirits,</hi> if they may have but your ear.</p>
+            <p n="3">3.<note place="margin">Pſal. 82.1, 6</note> Becauſe the <hi>Congregation of the mighty,</hi> may be read, <hi>the Aſſembly of the Gods,</hi> for God hath ſaid, <hi>You are Gods.</hi>
+               <note place="margin">Prov. 6.16, 17, 18, 19.</note> Now <hi>there are ſix things that God hat<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s, yea ſeven that are an abomination to him:</hi> and three at leaſt of thoſe ſeven do but make up the one thing that I plead a<g ref="char:EOLhyphen"/>gainſt, <hi>A lying tongue, a falſe witneſs that speaketh lies, and one that ſoweth diſcord among Brethren</hi>
+            </p>
+            <p>Laſtly, You all ſay you are for the hea<g ref="char:EOLhyphen"/>ling of our breaches, and if <hi>truth</hi> may di<g ref="char:EOLhyphen"/>rect the way to <hi>peace,</hi> take away the <hi>Tale-bearer</hi> and <hi>the ſtrife will ceaſe.</hi>
+               <note place="margin">Pro. 26.20</note>
+            </p>
+            <p>I love not to run Diviſion, or to men<g ref="char:EOLhyphen"/>tion the uſual tricotomy, yet muſt ſay, Had the moſt paſſionate of one ſort been but more <hi>Independent</hi> on miſreports con<g ref="char:EOLhyphen"/>cerning their diſſenting brethren: and the moſt violent of another ſort as careful to keep off from the <hi>Backbiter,</hi> as to ſtand off from the <hi>Preſbyter;</hi> and all of a third ſort as great adverſaries to <hi>aſperſing</hi> as they are to <hi>ſprinkling,</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#MURP" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </note> our diſeaſe had not come
+<pb n="4" facs="tcp:121166:4"/> to ſuch a dangerous <hi>Criſis</hi> as our wiſeſt Phyſicians both in Church and State take it now to be at.</p>
+            <p>Therefore whatever conſtruction this little Treatiſe do meet with abroad a<g ref="char:EOLhyphen"/>mong men, my conſcience, I hope, will comfort me in this, that I deſigned it for the quenching our furious flames, though in medling therewith I ſhould burn my fingers. I would not aim to <hi>grate</hi> here or <hi>gratify</hi> there, I have not wittingly offered injury or abuſe to any text through the Treatiſe, nor I hope to any perſon. I would not rob <hi>Stateſmen</hi> of juſt and ne<g ref="char:EOLhyphen"/>ceſſary <hi>intelligence,</hi> for the due tutelage of the publick weal; or make a ſport of hac<g ref="char:EOLhyphen"/>king at the evil of <hi>Talebearing</hi> or <hi>hearing,</hi> a <hi>root of bitterneſs</hi> which I find too apt to <hi>spring up</hi> in my ſelf as in others;<note place="margin">Heb. 12.15.</note> nor yet would I feed a diſcontented humor in any that look upon themſelves as injur'd, and perhaps are ſo, by this evil: I know men may go wrong by not <hi>right ſuffering,</hi> as others may by <hi>wrong doing.</hi> I hope <hi>Pre<g ref="char:EOLhyphen"/>face</hi> and <hi>Poſtſcript</hi> will (to all that are <hi>candid</hi> though <hi>concerned</hi>) clear the chari<g ref="char:EOLhyphen"/>table intent of him whoſe prayer for you is, That while many <hi>bend their tongues like their bows for lies,</hi>
+               <note place="margin">Ier. 10.3.</note> 
+               <hi>you may be</hi> Valiant <hi>only for the Truth.</hi>
+            </p>
+         </div>
+         <div type="address">
+            <pb n="5" facs="tcp:121166:4"/>
+            <head>To the <hi>INFORMER.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">T</seg>Here was a Miniſter late<g ref="char:EOLhyphen"/>ly living not far from my habitation in England, who having, to his coſt, ſome skill in Phyſick, and ſo much cha<g ref="char:EOLhyphen"/>rity as to make uſe of it for the good of his neighbors; putting his finger one day into a diſeaſed mouth, (though to do the man good) recieved ſuch a ſud<g ref="char:EOLhyphen"/>den and unhappy bite, (the Patient be<g ref="char:EOLhyphen"/>ing put to ſome pain) that the finger gangrening in a few days coſt the Phy<g ref="char:EOLhyphen"/>ſician his life.</p>
+            <p>My charity would hope that thou wouldſt not ſo ſerve me, if thou couldst; and my faith ſhould, that God will re<g ref="char:EOLhyphen"/>ſtrain thy wrath if thou wouldſt.</p>
+            <pb n="6" facs="tcp:121166:5"/>
+            <p>My conſcience bears me witneſs that what I have done, I have deſigned for thy good, though perhaps it doth not pleaſe thee that I ſhould be medling with the Diſeaſe of thy Mouth.<note place="margin">Gal. 4.16.</note> But am I therefore become thine enemy, becauſe I tell thee the truth? This little Look<g ref="char:EOLhyphen"/>ing glaſs doth ſhew thee how thy diſeaſe doth <hi>deform</hi> thee; thou knoweſt thou canſt <hi>form, conform, inform;</hi> and I have purpoſely <hi>perform'd</hi> this, to <hi>transform,</hi> if it may be, and to <hi>reform</hi> thee. The Lord but bleſs it to thee, and I am well aſſured, that when thou grow<g ref="char:EOLhyphen"/>eſt <hi>better</hi> thou wilt love the Phyſician, though whilſt thou art <hi>ill,</hi> 'tis like thou wilt diſlike, perhaps loath, the Phyſick.</p>
+         </div>
+         <div type="preface">
+            <pb n="7" facs="tcp:121166:5"/>
+            <head>A PREFACE Concerning Giving and Recieving of Informations.</head>
+            <p>
+               <seg rend="decorInit">A</seg>S it is the honour of virtue to ſteer a right courſe betwixt the <hi>Scylla</hi> and <hi>Charybdis</hi> of vitious extreams, ſo as ma<g ref="char:EOLhyphen"/>ny ſin in Informing, ſome may ſin too if they do not Inform.<note place="margin">Eccl. 3.7. and 8.5.</note> 
+               <hi>There's a time to keep ſilence and a time to ſpeak; and a wiſe mans heart diſcerneth both time and judgment.</hi>
+               <note place="margin">Exod. 32.7, 8. Matth. 18. 1 Cor. 5.1. and 1.11. and 11.18.</note> God himſelf informs <hi>Moſes</hi> of <hi>Iſraels</hi> revolt: Chriſt in ſome caſes bids <hi>Tell the Church: Paul</hi> recieved <hi>Reports,</hi> and had his Spyes upon the Churches that brought him tidings not onely of their Faith, but faults and fail<g ref="char:EOLhyphen"/>ings. <hi>Moſes</hi> chargeth blood upon the <hi>Tale-bearer,</hi> and ſin too upon the con<g ref="char:EOLhyphen"/>cealer.<note place="margin">Lev. 19.16. and 5.1.</note> 
+               <hi>If a ſoul ſin and hear the voice of ſwearing, and is a witneſs whether he hath ſeen or known it, if be do not utter
+<pb n="8" facs="tcp:121166:6"/> it, then he ſhall bear his iniquity.</hi> And what complaint any are bound to utter ſome are to recieve.<note place="margin">Jude 16.</note> Yet <hi>Jude</hi> complains of <hi>Complainers;</hi> and not onely he that raiſeth, but that <hi>taketh up a reproach a<g ref="char:EOLhyphen"/>gainſt his neighbour</hi> is excluded Gods holy hill;<note place="margin">
+                  <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Pſal. 15.3.</note> the ſame word indifferently, ſignifying the <hi>raiſing</hi> and <hi>recieving</hi> of Reports as in the Text and the Margin, <hi>Lev.</hi> 23.1.</p>
+            <p>The Preacher ſeems to allow private Intelligencers,<note place="margin">Eccl. 10.20. and 7.21.</note> eſpecially to publick per<g ref="char:EOLhyphen"/>ſons, <hi>A bird of the Air ſhall carry them the voice, and that which hath wings ſhall tell the matter.</hi> And yet he ſaith, <hi>take no heed unto all the words that are spoken, leaſt thou hear thy ſervant curſe thee.</hi>
+            </p>
+            <p>It ſeems then that as there is no He<g ref="char:EOLhyphen"/>brew word for <hi>ſwearing,</hi>
+               <note place="margin">
+                  <gap reason="foreign" resp="#OXF" extent="1 word">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> in Niph.</note> but onely for <hi>being ſworn</hi> in the paſſive voice, We may not give tongue or ear to Informa<g ref="char:EOLhyphen"/>tions but when conſcience of <hi>doing good,</hi> or of <hi>preventing</hi> or due <hi>puniſhment</hi> of e<g ref="char:EOLhyphen"/>vil doth juſtly urge; which that we may not unjuſtly pretend, I ſay.</p>
+            <p>That neither <hi>falſe, frivolous,</hi> nor <hi>ma<g ref="char:EOLhyphen"/>licious</hi> accuſations are pleaſing to <hi>God</hi> in the <hi>Informers,</hi> nor ſhould be to <hi>Men</hi> as <hi>Recievers.</hi>
+            </p>
+            <pb n="9" facs="tcp:121166:6"/>
+            <p>Firſt, Who can think that God <hi>can,</hi> or men <hi>ſhould</hi> be in love with Lyes? But who is the FALSE Informer? Not he onely that ſpeaks what he knoweth to be untrue as <hi>Zibah;</hi> but he alſo that re<g ref="char:EOLhyphen"/>ports to anothers prejudice, what per<g ref="char:EOLhyphen"/>haps he ſurmiſeth, but <hi>falſly,</hi> to be true, Therefore the Apoſtle couples <hi>railings</hi> with <hi>evil ſurmiſings.</hi>
+               <note place="margin">1 Tim. 6.4.</note> 
+               <hi>Thou falleſt away to the</hi> Chaldeans, ſaith <hi>Captain</hi> Irijah,<note place="margin">Jer. 37.13, 14.</note> 
+               <hi>It is falſe</hi> ſaith the Prophet <hi>Jeremiah.</hi>
+            </p>
+            <p>And not he onely that puts <hi>falſhood</hi> upon <hi>Truth,</hi> as <hi>trimming</hi> to the <hi>ſtuf,</hi> to make his ſtory ſeem the <hi>fairer</hi> and the innocent the fouler; But he alſo that <hi>fraudulently</hi> conceals that part of the truth that would clear the mind and <hi>In<g ref="char:EOLhyphen"/>tent</hi> to be <hi>innocent,</hi>
+               <note place="margin">Reus eſt cu<g ref="char:EOLhyphen"/>jus mens eſt rea.</note> whilſt he makes the moſt of that other part of it that ſpeaks <hi>guilt</hi> as to matter of <hi>fact.</hi>
+               <note place="margin">1 Sam. 21. and 22.</note> 
+               <hi>Doeg</hi> thus dealing with <hi>Ahimeleck,</hi> though what he informed <hi>Saul</hi> of was partly true, yet is juſtly called by <hi>David</hi> a <hi>falſe tongue.</hi>
+               <note place="margin">Pſal. 52.4.</note>
+            </p>
+            <p>To theſe we may refer the <hi>wreſting</hi> of <hi>words</hi> complained of by the Pſalmiſt,<note place="margin">Pſal. 56.5.</note> and diſtorting of doubtful ſayings to the moſt offenſive ſenſe, They are called <hi>falſe witneſses</hi> that gave in evidence a<g ref="char:EOLhyphen"/>gainſt Chriſt, that he ſaid,<note place="margin">Matth. 26.60, 61.</note> 
+               <hi>I am able to
+<pb n="10" facs="tcp:121166:7"/> deſtroy the Temple of God and to build it in three days:</hi> But his words were, <hi>De<g ref="char:EOLhyphen"/>stroy this Temple,</hi>
+               <note place="margin">John 2.19, 21.</note> 
+               <hi>and in three days I will raiſe it up,</hi> which he <hi>spake of the Temple of his body.</hi>
+            </p>
+            <p>So the miſrepreſenting of ſimple and honeſtly intended actions;<note place="margin">
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Sam. 17.28. <hi>Traducere,</hi> quaſi <hi>tranſducere.</hi>
+               </note> as <hi>Eliab</hi> did by <hi>Davids</hi> coming down to the Camp, (and this is properly to <hi>Traduce,</hi> that is, to lead or wyre-draw a word or action beyond the ſpeaker or doers intent or meaning,) <hi>I know the naughtineſs of thy heart,</hi> ſaith <hi>Eliab: Why what is my fault?</hi> ſaith <hi>David,</hi> who had reaſon to complain both of Brother and Stranger <hi>falſe witneſſes did riſe up,</hi>
+               <note place="margin">Pſa. 35.11.</note> 
+               <hi>they laid to my charge things that I knew not.</hi>
+            </p>
+            <p>And as falſe, ſo FRIVOLOUS Accu<g ref="char:EOLhyphen"/>ſations are reproved by the Prophet in thoſe <hi>that make a man an Offender for a word,</hi>
+               <note place="margin">Iſa. 29.21.</note> 
+               <hi>and lay a ſnare for him that re<g ref="char:EOLhyphen"/>proveth in the gate, and turn aſide the juſt for a thing of naught:</hi> ſuch whoſe work is to kindle great fires by the continual blowing up of the ſmalleſt ſparks, as <hi>Tatlers and Buſybodyes speaking things that they ought not.</hi>
+               <note place="margin">1 Tim. 5.13.</note>
+            </p>
+            <p>But ſay the matter appear weighty and true, yet if <hi>Malice</hi> or other finiſter
+<pb n="11" facs="tcp:121166:7"/> reſpect have apparently acted the In<g ref="char:EOLhyphen"/>former: Let the ſentence of an Heathen confirmed by Gods own execution on <hi>Daniels</hi> Accuſers how greatly ſoever pretending to publick ſervice,<note place="margin">Dan. 6.20 the end.</note> (<hi>this</hi> Da<g ref="char:EOLhyphen"/>niel, <hi>O King, regardeth not thee</hi> &amp;c.) Shew how little God likes it, or Men ſhould encourage it.</p>
+            <p>But is not <hi>Malice a good Informer</hi> though a bad Iudge? I anſwer, an er<g ref="char:EOLhyphen"/>ror in the firſt concoction is hardly mended in the ſecond or third.<note place="margin">A negatione ſecundi, al negationem tertii adjecti valet conſe<g ref="char:EOLhyphen"/>quentia.</note> Malice is not good, therefore I cannot well ſee how it ſhould be a good Informer. The Devil, that Arch-Informer, we know, wants no malice, who is yet caſt out of the Court of Heaven. I grant the Inform<g ref="char:EOLhyphen"/>ation <hi>Metaphyſically</hi> conſidered may be good, that is, the thing may be true, though malice provoked the Informer to make it known, yet is he not herein <hi>approvable</hi> that he did it malitiouſly, though ſtill the Offender is nevertheleſs <hi>reproveable</hi> if truly accuſed though ma<g ref="char:EOLhyphen"/>litiouſly.</p>
+            <p>Yet where there appears ſuch a <hi>Moral</hi> miſcarriage in the Informer as maliti<g ref="char:EOLhyphen"/>ouſneſs, it ſhould render the matter of the Information the more to be ſuſpect<g ref="char:EOLhyphen"/>ed,
+<pb n="12" facs="tcp:121166:8"/> inſomuch as it is hard <hi>rightly</hi> to <hi>re<g ref="char:EOLhyphen"/>preſent</hi> what is not <hi>rightly recieved;</hi> now 'tis a rule in Philoſophy that <hi>every thing is recieved according to the modifi<g ref="char:EOLhyphen"/>cation of that which recieves it.</hi>
+               <note place="margin">Quicquid recipitur, recipitur ad modum re<g ref="char:EOLhyphen"/>cipientis.</note> And therefore the eye that is <hi>blood-ſhot</hi> with malice, will be apt to deem every thing (though it be not ſo) of a <hi>bloody colour</hi> as the looking through a <hi>Red glaſs</hi> or <hi>medium</hi> to make every thing look <hi>red.</hi>
+            </p>
+            <p>But how if the man have been injuri<g ref="char:EOLhyphen"/>ous to me firſt?<note place="margin">Prov. 24.28, 29.</note> Yet <hi>be not witneſs againſt thy neighbour without cauſe, and decieve not with thy lips: Say not I will do to him as he hath done to me, I will render to the man according to his work.</hi>
+            </p>
+            <p>But on the contrary, <hi>Be pitiful, be courteous, not rendring evil for evil, or railing for railing</hi> &amp;c. <hi>Being reviled we bleſs,</hi>
+               <note place="margin">1 Cor. 4.12.</note> 
+               <hi>ſaith</hi> Paul.</p>
+            <p>But he ſtands in my light may ſome <hi>Zibah</hi> ſay; and unleſs I can <hi>traduce</hi> him I muſt ſtill truckle under him. Yet <hi>will a man ſpeak wickedly for God? and talk deceitfully for him?</hi>
+               <note place="margin">Job 13.7.</note> Who ſhall dare then ſo to do, to ſerve his own turn?</p>
+            <p>But ſay thou deſign to promote ſome publick good, nay perhaps that which thou reckoneſt thy <hi>Religion</hi> by a ſlande<g ref="char:EOLhyphen"/>rous
+<pb n="13" facs="tcp:121166:8"/> detraction from anothers <hi>Reputa<g ref="char:EOLhyphen"/>tion,</hi> whoſe credit ſtands in the <hi>way of that</hi> which thou calleſt the <hi>way of God.</hi> Yet ſtill <hi>if the truth of God hath more abounded through my lie unto his glory,</hi>
+               <note place="margin">Rom. 3.7, 8.</note> 
+               <hi>why yet am I alſo judged as a ſinner? And not rather as we be ſlanderouſly reported, and ſome affirm that we ſay, Let us do e<g ref="char:EOLhyphen"/>vil that good may come? whoſe damnation is juſt.</hi>
+            </p>
+            <p>But though the falſe Informer do evil, may not I do well to recieve the Infor<g ref="char:EOLhyphen"/>mation, if it ſeem to me probable as <hi>Zi<g ref="char:EOLhyphen"/>bahs</hi> did to <hi>David?</hi>
+            </p>
+            <p>No not very well to be too ſuſpitious of a <hi>Mephiboſheth,</hi> one of known inte<g ref="char:EOLhyphen"/>grity:<note place="margin">1 Sam. 24. ch. 26.</note> And <hi>David</hi> thought ſo too in his own eaſe, for having formerly given <hi>Saul</hi> full proof of his fidelity, he after<g ref="char:EOLhyphen"/>ward <hi>accurſeth before the Lord</hi> them that ſhould yet perſiſt to incence <hi>Saul</hi> againſt him. But Oh how hard is it for men, yea for good men, when ſelf-in<g ref="char:EOLhyphen"/>tereſt ſeems to prompt to jealouſie or re<g ref="char:EOLhyphen"/>venge, to caſt all their Accounts by that <hi>Golden-Rule</hi> of Chriſts,<note place="margin">Mat. 7.12.</note> 
+               <hi>on which hang all the Low and the Prophets?</hi>
+            </p>
+            <p>What a ſtrange confidence had <hi>Alex<g ref="char:EOLhyphen"/>ander</hi> in <hi>Philip Acarnama<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> his Phyſitian,<note place="margin">Plutar. in vita Alex.</note>
+               <pb n="14" facs="tcp:121166:9"/> who cheerfully took a portion at his hand, when <hi>Parmenio</hi> had advertiſed him that he was largely hired by <hi>Darius</hi> to kill him? A ſhame that a Heathen can ſo far truſt a Heathen, and not a Chriſti<g ref="char:EOLhyphen"/>an a fellow Chriſtian, though our Re<g ref="char:EOLhyphen"/>ligion doth teach our charity,<note place="margin">1 Cor. 13.5.</note> 
+               <hi>not to ſeek her own, not to be eaſily provoked, not to think evil!</hi>
+            </p>
+            <p>But men are mutable: he afterwards became <hi>Davids</hi> enemy that had ſome<g ref="char:EOLhyphen"/>time been <hi>his guide,</hi>
+               <note place="margin">Pſalm 55.13, 14.</note> 
+               <hi>his acquaintance, with whom he had taken ſweet Council, yea, they walked to the houſe of God in company.</hi> May I not then take an In<g ref="char:EOLhyphen"/>formation againſt any man if it ſeem probable, though it may prove falſe? How elſe ſhall I be able to ſecure my ſelf?</p>
+            <p>I anſwer, The ſcope of the Informati<g ref="char:EOLhyphen"/>on would here be attended, whether it tend to <hi>do</hi> another <hi>hurt,</hi> or to prevent him from <hi>doing hurt.</hi> I may ſo far then recieve it as to ſenſe my ſelf, in caſe it ſhould prove true; but not ſo as to fall foul upon him that is inform'd againſt, untill I am aſcertain'd that it is true: I may ſafeguard my ſelf, leaſt a pretended friend ſhould prove mine enemy, but not
+<pb n="15" facs="tcp:121166:9"/> deal with him as an enemie, till proved ſo.<note place="margin">1 Cor. 11.18. <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> There is a <hi>partly believing</hi> of what we hear, (as Paul ſpeaks, it the phraſe there be not a <hi>Meioſis</hi>) allowable in ſome caſes where we may not yet fully believe.<note place="margin">Eccl. 2.14.</note> 
+               <hi>The wiſe mans eyes</hi> ſhould be <hi>in his head,</hi> though his charity be ſtill in his heart. 'Twas commendable in <hi>Alexan<g ref="char:EOLhyphen"/>der</hi> not over haſtily to <hi>diſtruſt</hi> his faithful <hi>Phyſician,</hi> yet I think his <hi>truſting the phy<g ref="char:EOLhyphen"/>ſick</hi> after ſuch an item, without further experiment or enquiry, was not: eſpe<g ref="char:EOLhyphen"/>cially he being a <hi>publick perſon,</hi> who may beſt <hi>ſuspect,</hi> becauſe <hi>inspection</hi> is his work, and if not <hi>circumspect,</hi> he com<g ref="char:EOLhyphen"/>monly looſes more than himſelf. I ra<g ref="char:EOLhyphen"/>ther commend the prudence of that Prince, who handſomly over-hearing ſome of his Attendants ſpeak evil of him, bad them <hi>go further off, lest the King ſhould hear them:</hi> ſo letting them know that he heard them, and yet as if he heard them not.</p>
+            <p>He that will believe or liſten to <hi>no<g ref="char:EOLhyphen"/>thing,</hi> gives encouragement and occaſi<g ref="char:EOLhyphen"/>on to thoſe to hurt him, that otherwiſe either durſt not or could not: and he that will ſuſpect and loves to liſten to <hi>e<g ref="char:EOLhyphen"/>very thing</hi> may probably give them pro<g ref="char:EOLhyphen"/>vocation
+<pb n="16" facs="tcp:121166:10"/> to miſchieve him, that other<g ref="char:EOLhyphen"/>wiſe would not; for how hard is it to love him without diſſimulation, that we know ſuſpects us without reaſon? Both he that ſo neglects an Information, if <hi>pro<g ref="char:EOLhyphen"/>bable,</hi> as not juſtly to obviate an inten<g ref="char:EOLhyphen"/>ded injury; and he that ſo recieves one, though <hi>probable,</hi> till <hi>proved,</hi> as to ſen<g ref="char:EOLhyphen"/>tence or do execution, tranſgreſſeth the Law <hi>Thou ſhalt love thy neighbor as thy ſelf.</hi>
+               <note place="margin">Prov. 25 2 Ch. 18.13.</note> 
+               <hi>It is the honor of Kings to ſearch out a matter.</hi> But <hi>he that anſwereth a matter before he hear,</hi> (that is, rightly ap<g ref="char:EOLhyphen"/>prehend it) <hi>it is folly and ſhame unto him.</hi>
+            </p>
+            <p>We have lamentable inſtances of miſ<g ref="char:EOLhyphen"/>carriages in both kinds in <hi>Saul</hi> and <hi>Geda<g ref="char:EOLhyphen"/>liah. Saul</hi> he liſtens to the barking of a Dog, a <hi>Doeg</hi> I ſhould have ſaid, and upon the ſingle Information of an <hi>Edomite,</hi> commits an horrid maſſacre upon <hi>four ſcore and five</hi> innocent and holy perſons in one day.<note place="margin">Jer. 13.15.</note> 
+               <hi>Gedaliah</hi> on the contrary will not hearken to the certain though ſecret intelligence of <hi>Johanan,</hi> confirmed from ſeveral hands, That <hi>Iſhmael</hi> was ſet on work by <hi>Ba<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lis</hi> to kill him, (as com<g ref="char:EOLhyphen"/>monly the <hi>moſt innocent</hi> are <hi>leaſt ſuspi<g ref="char:EOLhyphen"/>cious</hi> of others,<note place="margin">Ver. 16.</note>) <hi>Thou speakeſt falſly of Iſhmael;</hi> ſaith <hi>Gedaliah</hi> to <hi>Johanan:</hi> but
+<pb n="17" facs="tcp:121166:10"/> poor man, he ſoon found it too true to <hi>his</hi> coſt,<note place="margin">Chap. 41. 2, 3. Plut in vita<g ref="char:cmbAbbrStroke">̄</g> Julii Caeſ.</note> and <hi>theirs</hi> that were caſt away with him for want of his care.</p>
+            <p>'Tis ſaid that <hi>Julius Caeſar</hi> was mur<g ref="char:EOLhyphen"/>thered with a note in his hand, diſcove<g ref="char:EOLhyphen"/>ring the bloudy treaſon, he neglecting timely to read it, though importuned thereunto by him that gave it.</p>
+            <p>Further, ſuch Informations as are for prevention of an <hi>evîl intended</hi> to be done, may with good conſcience and reaſon, be ſecretly both recieved and improved: Thus the <hi>chief Captain</hi> being very pri<g ref="char:EOLhyphen"/>vately advertized of the plot upon <hi>Paul</hi> by thoſe <hi>ſworn Conspirators,</hi>
+               <note place="margin">Act. 23.22,</note> diſmiſſeth the intelligencer with a charge to <hi>tell no man that he had ſhewed him thoſe things.</hi>
+            </p>
+            <p>But when the Information is an <hi>Accu<g ref="char:EOLhyphen"/>ſation</hi> for a <hi>crime committed;</hi> though it may be ſecretly recieved, if need be, yet before puniſhment can be fairly inflicted, the perſon accuſing, and the circumſtan<g ref="char:EOLhyphen"/>ces of the offenſe ſhould be made known to the accuſed, that the ſplendor of ju<g ref="char:EOLhyphen"/>ſtice be not ecclipſed, nor the offender barred of ſo juſt a means of vindicating himſelf, in caſe of falſe imputation. As it was a good proviſion in their Law. That no man ſhould be <hi>judged till firſt heard:</hi>
+               <note place="margin">John 7.<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</note>
+               <pb n="18" facs="tcp:121166:11"/> ſo it is an wholſom uſage in our admini<g ref="char:EOLhyphen"/>ſtration, That the <hi>Witneſs look the Priſo<g ref="char:EOLhyphen"/>ner in the face.</hi> As they (bad as they were) had ſome colour of piety, ſo this, ſhadow of juſtice,<note place="margin">1 Kings 10.</note> who <hi>ſet the witneſſes before Naboth?</hi> And ſaith Pilate to Chriſt,<note place="margin">Mat. 27.13.</note> 
+               <hi>Heareſt thou not what theſe wit<g ref="char:EOLhyphen"/>neſs?</hi>
+            </p>
+            <p>It is a thing moſt worthy our obſerva<g ref="char:EOLhyphen"/>tion, what abundant caution the Lord gives concerning accuſatory informati<g ref="char:EOLhyphen"/>ons.<note place="margin">Deut. 17.4, 5, 7.</note> 
+               <hi>If it be told thee, and thou haſt heard it, and enquired diligently, and behold it be true, and the thing certain, &amp;c. Then thou ſhalt bring forth that man which hath committed that thing, &amp;c. and the hands of the witneſſes ſhall be firſt upon him. If it be told thee,</hi> there is <hi>private information. And thou haſt heard it,</hi> which ſeems to referr to <hi>common fame:</hi> yet there muſt be an <hi>inquiring diligently;</hi> and <hi>behold,</hi> which ſeems to require all clearneſs of evidence; <hi>If it,</hi> that is, the Information, <hi>be true: And the thing cer<g ref="char:EOLhyphen"/>tain,</hi> The matter of fact not preſumed, but fully proved. Then thou ſhalt bring forth not onely the <hi>accuſed,</hi> but alſo the <hi>accuſer,</hi> whoſe <hi>hand is to be firſt</hi> in the execution. It is alſo ſaid expreſly, for
+<pb n="19" facs="tcp:121166:11"/> prevention and puniſhment of injury by falſe witneſs,<note place="margin">Deut. 19.17.</note> 
+               <hi>That both the men between whom the controverſie is</hi> (Accuſed and Accuſer) <hi>ſhall ſtand before the Lord.</hi> And indeed were there no more than that <hi>general</hi> good rule (and good rule for <hi>Generals</hi> as well as others) of <hi>doing as we would be done unto,</hi> it were enough in this matter, for I know no man that would willingly be condemned and pu<g ref="char:EOLhyphen"/>niſhed upon that accuſation, that he ei<g ref="char:EOLhyphen"/>ther denies or doth not confeſs (or I think ought) without knowledg of his Accuſer that he may be the better able to make his defenſe.</p>
+            <p>And further as the <hi>notifying</hi> of the Ac<g ref="char:EOLhyphen"/>cuſer doth juſtifie the Judg, and may ſin<g ref="char:EOLhyphen"/>gularly contribute to the <hi>clearing</hi> of the accuſed if innocent: So alſo to the juſt <hi>ſtartling</hi> of drouſy conſcience, and <hi>ſilen<g ref="char:EOLhyphen"/>cing</hi> of ſinfull ſelf-juſtifications in caſe of guilt. And therefore <hi>Paul</hi> cenſuring the Corinthians for that which <hi>had been de<g ref="char:EOLhyphen"/>clared to him of them,</hi> lets them plainly know,<note place="margin">1 Cor. 1.11.</note> that he had it from them <hi>of the houſe of Chloe.</hi>
+            </p>
+            <p>If any think the making of <hi>Informers known</hi> to others, would diſcourage o<g ref="char:EOLhyphen"/>thers from <hi>making</hi> Informations <hi>known:</hi>
+               <pb n="20" facs="tcp:121166:12"/> I anſwer, If they be for <hi>prevention of evil intended</hi> as aforeſaid, they may with<g ref="char:EOLhyphen"/>out ſin be concealed: if for <hi>puniſhment of evil committed,</hi> it either <hi>will not</hi> or <hi>ought not</hi> diſcourage honeſt informers or Informations. And why <hi>others</hi> ſhould be encouraged, I ſee not. If any think they ſhould, for ſome <hi>reaſon</hi> or <hi>neceſſity</hi> of <hi>State,</hi> let us take heed that be not tru<g ref="char:EOLhyphen"/>ly reported of us, that was <hi>ſlanderouſly</hi> of the Apoſtles,<note place="margin">Rom. 3.8.</note> that we hold, <hi>That evil may be done that good may come of it.</hi> And in ſuch caſe, if a <hi>Stateſman</hi> admit what a <hi>good man</hi> may not, let him remember the grave reply of one that being both <hi>Duke</hi> and <hi>Cardinal</hi> was urged to do that in the capacity of a Duke which he judg<g ref="char:EOLhyphen"/>ed abſolutely unlawful for a Cardinal.<note place="margin">A like ſay<g ref="char:EOLhyphen"/>ing I have read of a Clown to the Biſhop of <hi>Colein.</hi>
+               </note> 
+               <hi>If the Cardinal</hi> (ſaith he) <hi>be damned, what will becom of the Duke?</hi>
+            </p>
+            <p>I need not tell you how odious to all but to their Maſters and ſelves, Inform<g ref="char:EOLhyphen"/>ers were in former times, even in my remembrance: but oh the treachery of the heart of man! What credit have ſome ſelf ſame practiſes, yea and principles too, abominated by good men in thoſe times, regained in ours, by putting on a new <hi>faſhion</hi> to ſerve a new <hi>faction?</hi> How
+<pb n="21" facs="tcp:121166:12"/> are ſome men applauded now adays for borrowing thoſe very notes, for the chir<g ref="char:EOLhyphen"/>ping, of which every one was ready to pluck <hi>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ens feathers</hi> about twenty years agoe. And the matter is much alike in the caſe in hand: as if the <hi>promoting</hi> of Promoters, and the ſetting up of the <hi>work of Information,</hi> were a ſingular part of that <hi>work of Reformation</hi> ſo long ſpo<g ref="char:EOLhyphen"/>ken of.</p>
+            <p>Now as ſlanderous inſinuations and ſy<g ref="char:EOLhyphen"/>cophantical delations are always, ſo e<g ref="char:EOLhyphen"/>ſpecially to be abhorred in theſe caſes.</p>
+            <p n="1">1. When the Accuſed <hi>are not</hi> or <hi>cannot</hi> be preſent to anſwer for themſelves: this is manifeſtly akin to that <hi>curſing of the deaf,</hi>
+               <note place="margin">Lev. 19.14.</note> dealing with ſuch as are <hi>out of hear<g ref="char:EOLhyphen"/>ing.</hi> They <hi>belch out with their mouths,</hi>
+               <note place="margin">Pſal. 69.7.</note> 
+               <hi>ſwords are in their lips, they ſay who doth hear?</hi>
+            </p>
+            <p n="2">2. When the Accuſed, through their abject condition, know not where to have <hi>right,</hi> though they know they have <hi>wrong.</hi>
+               <note place="margin">Pro. 30.10</note> 
+               <hi>Accuſe not a ſervant to his Ma<g ref="char:EOLhyphen"/>ſter leſt he curſe thee, and thou be found guilty,</hi> that is, leſt he tell <hi>God,</hi> when he can get no right of <hi>Man.</hi>
+            </p>
+            <p n="3">3. When the Magiſtrate is traduced, as <hi>David</hi> by <hi>Abſolom:</hi> for <hi>It is written,</hi>
+               <note place="margin">Acts 23.5.</note>
+               <pb n="22" facs="tcp:121166:13"/> 
+               <hi>Thou ſhalt not speak evil of the Ruler of thy people.</hi>
+               <note place="margin">Num. 12.8.</note> And ſaith God, <hi>Wherefore were ye not affraid to ſpeak againſt my ſer<g ref="char:EOLhyphen"/>vant Moſes?</hi>
+            </p>
+            <p n="4">4 When a Miniſter is ſlandered, as <hi>A<g ref="char:EOLhyphen"/>himelech</hi> to <hi>Saul,</hi>
+               <note place="margin">Acts 24.5.</note> or <hi>Paul</hi> by <hi>Tertullus, We have found this man a peſtilent fellow, and a mover of ſedition;</hi> the old calumny on Gods faithfull Miniſters, but new vamped, and ſo made uſe of to this day. So the <hi>Jews</hi> before <hi>Feſtus,</hi>
+               <note place="margin">Ch. 25. 7.</note> 
+               <hi>laid many and and grievous complaints againſt Paul, which they could not prove.</hi> As God would have his Miniſters <hi>worthy of double honor,</hi>
+               <note place="margin">m. 15.</note> he hath beſet their good name with a <hi>double hedg.</hi>
+               <note place="margin">Ver. 19.</note> 
+               <hi>Againſt an Elder recieve not an Accuſation, but before two or three witneſſes:</hi> which he ſpeaks of the <hi>Elder that rules well</hi> and that <hi>labors in the Word and Doctrine.</hi> The dishonor of his perſon is a diſadvantage to his Do<g ref="char:EOLhyphen"/>ctrine; therefore the accuſation which was not to be <hi>determined</hi> againſt others, muſt not be ſo much as <hi>recieved</hi> againſt him <hi>without two or three witneſſes.</hi> And if theſe things be ſo, who ſhall anſwer for the obloquies and reproaches that are caſt as dirt in the face, not onely of Ma<g ref="char:EOLhyphen"/>giſtrates and Miniſters, but even of <hi>Ma<g ref="char:EOLhyphen"/>giſtracy</hi>
+               <pb n="23" facs="tcp:121166:13"/> and <hi>Miniſtery</hi> it ſelf in this evil and adulterous generation, wherein are ſprung up ſo many <hi>curſed Chams,</hi> whoſe great delight is <hi>to ſee</hi> or <hi>ſhew</hi> the <hi>naked<g ref="char:EOLhyphen"/>neſs</hi> of <hi>Gods Noahs,</hi>
+               <note place="margin">Gen. 9, 23 29</note> though their <hi>fathers</hi> in a Theological ſenſe.</p>
+            <p>Finally, on the other hand we may greatly ſin by <hi>ſilence</hi> and <hi>non-informing.</hi>
+            </p>
+            <p n="1">1 When our Informing of <hi>evil intend<g ref="char:EOLhyphen"/>ed</hi> may prevent its being <hi>committed,</hi> for which end a <hi>David,</hi> a Magiſtrate, may maintain an <hi>Huſhai,</hi> an honeſt ſpy, in the <hi>Camp of an</hi> Abſalom, with charge to <hi>ſend him every thing he can hear.</hi>
+               <note place="margin">2 Sam. 13.56.</note> 
+               <hi>If thou forbear to deliver them that are ready to be ſlain, if thou ſayeſt, behold,</hi>
+               <note place="margin">Prov. 25.11 12. Eſt. 2, 21, &amp;c.</note> 
+               <hi>we knew it not, doth not he that pondereth the heart conſider?</hi> Thus <hi>Mordecai</hi> for informing againſt <hi>Bigthana</hi> and <hi>Tereſh</hi> two trayterous aſſaſſinates was as hono<g ref="char:EOLhyphen"/>rably rewarded as they were ſhamefully executed by the juſt command of King <hi>Ahaſhueroſh.</hi>
+               <note place="margin">Chap. 6.</note>
+            </p>
+            <p n="2">2 When our <hi>informing</hi> is neceſſary for the <hi>reforming</hi> of the offenders, thus <hi>good Joſeph</hi> brought the <hi>evil report of his brethren to his Father,</hi>
+               <note place="margin">Gen. 37.2</note> and thoſe of the <hi>houſhold of Chloe,</hi> the <hi>Schiſmes</hi> of the Church of <hi>Corinth</hi> to <hi>Pauls</hi> eares.</p>
+            <pb n="24" facs="tcp:121166:14"/>
+            <p n="3">3 When it is neceſſary for the juſt <hi>puniſhment</hi> of crying offences,<note place="margin">Matth. 18.31.</note> Thus <hi>the ſervants</hi> complain to their Maſter of his cruelty, who refuſed to <hi>have patience with his fellow ſervant for two hundred pence, after his Maſter had forgiven him ten thouſand tallents.</hi> Concealment in ſome caſes makes <hi>other mens</hi> ſins <hi>ours,</hi> as <hi>mispriſion</hi> of treaſon is <hi>treaſon.</hi> And I have obſerved as too common a fault in private profeſſors, their aptneſs to find fault if thoſe evils that themſelves ſee or hear be not puniſhed, while they neglect to lend the Magiſtrate (as they ought) <hi>their eys</hi> and <hi>ears;</hi> for who can think he ſhould be able to ſee or hear all with <hi>his own?</hi>
+            </p>
+            <p n="4">4 When it is neceſſary for the <hi>glorify<g ref="char:EOLhyphen"/>ing</hi> of God, and <hi>warning of others, that all Iſrael may hear and fear and do no more ſo wickedly.</hi>
+               <note place="margin">Deu. 13.11</note>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="treatise">
+            <div n="1" type="chapter">
+               <pb n="25" facs="tcp:121166:14"/>
+               <head>CHAP. I. <hi>The</hi> INFORMERS <hi>Pedigree.</hi>
+               </head>
+               <p>THe Informer, in Scripture, fir<g ref="char:EOLhyphen"/>named <hi>Sycophant,</hi> alias <hi>Tale-bearer</hi> (for his proper name you ſhall never know,<note place="margin">Luke 3. Lev. 19.</note> if he can hide it, howſoever diſhoneſtly bold he make with yours, not unlike ſome Na<g ref="char:EOLhyphen"/>tions, more <hi>jealous</hi> then <hi>chaſt,</hi> who love to be too free with other mens wives, yet their own muſt not paſs in the ſtreets but under a <hi>veyle</hi>) He is for his <hi>pedigree</hi> of a very ancient <hi>extraction,</hi> indubitably deſcended from that original Incendiary, <hi>exiled from Heaven</hi> for factiouſneſs there, and the firſt that ſet up the Trade of <hi>traducing on earth;</hi> opening his <hi>pack</hi> to that ſex that he thought moſt inclined to the <hi>pedler,</hi> ſecretly ſuggeſting to cre<g ref="char:EOLhyphen"/>dulous <hi>Eve,</hi> that goodneſs it ſelf was not ſo <hi>well affected</hi> as were to be <hi>wiſhed</hi> to mans <hi>Commonwealth.</hi>
+                  <note place="margin">Gen. 3.5.</note> The ſerpentine Sycophant having wound into the wo<g ref="char:EOLhyphen"/>man, ſhe hyes her to her husband with a tale as <hi>fair,</hi> but as <hi>fatal</hi> as the <hi>fruit</hi> that ſhe gave him. Both are too ſoon re<g ref="char:EOLhyphen"/>cieved
+<pb n="26" facs="tcp:121166:15"/> by <hi>Adam,</hi> who too late finds <hi>Eve decieved</hi> in both,<note place="margin">Ver. 6.</note> that the ſly Informer was both a <hi>Lyer</hi> and a <hi>Murtherer,</hi> and his <hi>information</hi> deſigned for the <hi>deform<g ref="char:EOLhyphen"/>ation</hi> of till that time happy,<note place="margin">V. 7.</note> but thence<g ref="char:EOLhyphen"/>forth miſerable <hi>mankind.</hi> So then (par<g ref="char:EOLhyphen"/>don my zeal againſt that trade that coſt us ſo <hi>dear</hi> before we were born, and at its firſt ſetting up) the firſt <hi>Informer</hi> that ever was, was the <hi>Devil,</hi> the firſt <hi>in<g ref="char:EOLhyphen"/>formed againſt</hi> was <hi>God,</hi> the firſt <hi>cuſtom<g ref="char:EOLhyphen"/>er</hi> that the crooked Informer got was a <hi>Woman,</hi> made of a <hi>crooked bone,</hi> yet made <hi>upright</hi> and <hi>innocent,</hi> till <hi>being de<g ref="char:EOLhyphen"/>cieved, ſhe fell into the tranſgreſſion</hi> by <hi>recieving a Report</hi> againſt the innocent. Even our ſpeech puts as li<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tle difference betwixt a <hi>Tale-bearer</hi> and <hi>Talehearer,</hi> as the proverb doth betwixt the <hi>Thief</hi> and the <hi>Reciever.</hi>
+               </p>
+               <p>When evil and unjuſt ſurmiſes and jea<g ref="char:EOLhyphen"/>louſies are fomented againſt thoſe that are <hi>good,</hi> men do but follow <hi>Satan</hi> who began with <hi>God:</hi> But Oh that there were the ears of none but weak <hi>woman<g ref="char:EOLhyphen"/>kind</hi> (who are too many, by ſo many) to drink in ſuch <hi>venime</hi> as is ſpit by the <hi>ſeed of the ſerpent.</hi>
+               </p>
+               <p>
+                  <hi>Adam</hi> now <hi>Bank-rupt</hi> takes up the
+<pb n="27" facs="tcp:121166:15"/> ſame <hi>Trade</hi> as bad as it is, which could never have had <hi>riſe</hi> amongſt us but for his <hi>Fall:</hi> had not our Father been <hi>broken</hi> we ſhould have ſcorned without doubt to have gone pedling about with a <hi>Tale-bearers pack.</hi> But he not knowing what ſhift to make for a poor living, and be<g ref="char:EOLhyphen"/>ing yet too loath to <hi>cover himſelf</hi> with his own <hi>ſhame</hi> and <hi>confuſion,</hi>
+                  <note place="margin">Jer. 3.25.</note> which would beſt have become him, (but <hi>ſelf cenſuring</hi> is too <hi>good</hi> a <hi>commodity</hi> for ſuch <hi>had Merchants</hi> to deal much in) He turns <hi>Informer</hi> againſt his own <hi>dear wife,</hi> alas, too dear to him from the time that ſhe grew <hi>tale-teller;</hi> but now he pays her in her own coyn, and not con<g ref="char:EOLhyphen"/>tented to deal in ſuch ſmall wares, he adventures higher, and in informing a<g ref="char:EOLhyphen"/>gainſt her, he <hi>ſuggeſts</hi> againſt God, and caſts a ſubtil imputation upon innocence it ſelf (as <hi>Informers</hi> will be <hi>muttering</hi> where they dare not ſpeak out) <hi>The wo<g ref="char:EOLhyphen"/>man thou gavest me,</hi> &amp;c.<note place="margin">Gen. 3.12.</note>
+               </p>
+               <p>The <hi>woman</hi> again ſhe informs againſt the ſerpent,<note place="margin">Ver. 13.</note> and (as ſtrongly as ſhe can) vomits up her Gall in the firſt Informers face, who goes <hi>ſneaking</hi> and <hi>creeping</hi> away (as falſe <hi>Informers</hi> are wont to do, when <hi>detected</hi>) but not without Gods
+<pb n="28" facs="tcp:121166:16"/> curſe upon himſelf,<note place="margin">V. 14.</note> 
+                  <hi>on thy belly ſhalt thou go;</hi> and entayled on his poſterity. The Pſalmiſt complaining (as ſome read) of <hi>ſlander</hi> and <hi>calumny (Cherpah,</hi>
+                  <note place="margin">Ainſw. A radic. <gap reason="foreign" resp="#OXF" extent="1 word">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> &amp; <gap reason="foreign" resp="#OXF" extent="1 word">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </note> and <hi>Ca<g ref="char:EOLhyphen"/>limmah,</hi> whence <hi>carping</hi> and <hi>calumn,</hi> ſeem derived) inſpired of God thus im<g ref="char:EOLhyphen"/>precates,<note place="margin">Pſa. 69.23.</note> 
+                  <hi>make their loyns continually to ſhake,</hi>
+                  <note place="margin">Rom. 11.10</note> which text the Apoſtle quoting thus varies, <hi>bow down their back alway;</hi> a <hi>curſe</hi> as near a kin to the <hi>ſerpents,</hi> as the <hi>traducer</hi> is to the <hi>Devil.</hi>
+               </p>
+               <p>When each of theſe Informers had thus acted their parts, the <hi>earth</hi> it ſelf was the worſe for it (as it is a plague to a <hi>Countrey</hi> to be peſtered with ſuch ped<g ref="char:EOLhyphen"/>lers.<note place="margin">Gen. 3.18.</note>) <hi>Thorns and thiſtles</hi> muſt it now <hi>bring forth:</hi> And that in a <hi>moral</hi> ſenſe too, whereof the Prophet ſadly com<g ref="char:EOLhyphen"/>plains,<note place="margin">Mich. 7.4, 5.</note> 
+                  <hi>The beſt of them is as a bryer, and the moſt upright is ſharper then a thorn hedge</hi> &amp;c. <hi>Truſt ye not in a friend, put ye not confidence in a guide, keep the doors of thy mouth from her that lyeth in thy boſom.</hi> Having thus traced this Inform<g ref="char:EOLhyphen"/>er from his head ſpring, we find him to be too near a kin to a <hi>Cain, (who was of that wicked one)</hi> fallen <hi>Adam</hi> is his Fa<g ref="char:EOLhyphen"/>ther,<note place="margin">
+                     <gap reason="foreign" resp="#OXF" extent="1 span">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>: 1 Joh. 3.12.</note> a fallen <hi>Angel</hi> his Grandfather. having therefore a <hi>Prince</hi> to his proge<g ref="char:EOLhyphen"/>nitor,
+<pb n="29" facs="tcp:121166:16"/> we cannot fairly deny him, a <hi>Coat of Arms</hi> ſuitable to his origination, and as <hi>Arms</hi> are wont oft to be hung upon <hi>Sign-posts,</hi> you can hardly look off of the Informers when ever you ſee a <hi>Sign of Adam</hi> and <hi>Eve,</hi> for he beareth a <hi>ſer<g ref="char:EOLhyphen"/>pent proper</hi> with an apple <hi>(or)</hi> on his tongue, and a ſting <hi>(ſable)</hi> in his tayl: morally thus <hi>blazoned,</hi> he ſalutes you with <hi>fair pretences,</hi> but never leaves you till he have poyſoned and inflamed you with <hi>prejudices</hi> againſt the innocent; like that <hi>Wine that gives a fine colour in the glaſs,</hi>
+                  <note place="margin">Prov. 23.31, 32. Ecc. 10.11.</note> 
+                  <hi>but at length it biteth like a ſerpent. Surely the ſerpent</hi> (ſaith the Preacher) <hi>will bite without inchantment, and a Babler is no better.</hi>
+                  <note place="margin">Pſa. 146.3.</note> 
+                  <hi>They have ſharpned their tongues like a ſerpent</hi> (ſaith <hi>David,) Adders poyſon is under their lips.</hi> You ſee I have the Authority of a <hi>King at Arms</hi> for this Heraldry.</p>
+               <p>Beſides as the <hi>Sirname</hi> of the Parent is derived to poſterity,<note place="margin">
+                     <gap reason="foreign" resp="#OXF" extent="1 span">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>trajicere,</hi>
+                     <hi>traducere</hi> John 6.70.</note> if <hi>Devil</hi> be cal<g ref="char:EOLhyphen"/>led <hi>Accuſer,</hi> which is the ſenſe of that name, ſo <hi>vice verſâ</hi> the <hi>Accuſer</hi> is cal<g ref="char:EOLhyphen"/>led <hi>Devil,</hi> as <hi>Iſcariot</hi> was that <hi>informed againſt Chriſt.</hi>
+               </p>
+               <p>The Apoſtle who would not have <hi>women</hi> to be <hi>Slanderers</hi> (as we read,)
+<pb n="30" facs="tcp:121166:17"/> ſaith,<note place="margin">1 Tim. 3.11. <gap reason="foreign" resp="#OXF" extent="1 span">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. 1 Tim. 3.3. <gap reason="foreign" resp="#OXF" extent="1 word">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> they muſt not be <hi>Devils,</hi> ſo the Greek. And where he foretells that <hi>Se<g ref="char:EOLhyphen"/>ducers</hi> would be <hi>Traducers,</hi> we read, <hi>falſe accuſers,</hi> or <hi>make-baits,</hi> but the word is <hi>Devils.</hi>
+               </p>
+               <p>If yet there be any doubt of the In<g ref="char:EOLhyphen"/>formers Line, his friends will help us to ſome proof, with whom it is a maxime that <hi>Malice is a good Informer.</hi>
+               </p>
+               <p>But if they will needs have that true, methinks the Apoſtle ſhould be true too, who ſaith,<note place="margin">1 Joh. 3.10.</note> 
+                  <hi>In this are the children of God manifeſt, and the children of the Devil, whoſoever doth not rightouſneſs is not of God, neither he that loveth not his Bro<g ref="char:EOLhyphen"/>ther.</hi>
+               </p>
+               <p>You ſee who is his <hi>Father,</hi> if you ask for his <hi>Brethren,</hi> there is <hi>Doeg the Edo<g ref="char:EOLhyphen"/>mite,</hi> and <hi>Zibah</hi> the paraſite, and <hi>Judas</hi> the <hi>pſeud-Apoſtle, cum multis aliis,</hi> all too foul a fraternity for any honeſt heart to claim kindred of; eſpecially conſider<g ref="char:EOLhyphen"/>ing what a ſtock they are come of, let the upright ſay, <hi>O my ſoul come thou not onto their ſecret, and unto their aſſembly mine honor be thou not united.</hi>
+               </p>
+               <p>To cloſe this head, it is not to be for<g ref="char:EOLhyphen"/>gotten, that as the evil ſpirit is called a <hi>Pleader</hi> or <hi>Informer againſt others,</hi>
+                  <note place="margin">
+                     <gap reason="foreign" resp="#OXF" extent="1 word">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </note> ſo the
+<pb n="31" facs="tcp:121166:17"/> good ſpirit of God hath an appellation Antarctickly oppoſite <hi>viz.</hi> an <hi>advocate or a pleader for others:</hi>
+                  <note place="margin">
+                     <gap reason="foreign" resp="#OXF" extent="1 word">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. Gal. 5.16.</note> ſo that to <hi>walk in the spirit,</hi> (as <hi>Paul</hi> ſpeaks), and to <hi>walk with ſlanderers</hi> (as the Prophet ſpeaks,<note place="margin">Jer. 9.4.</note>) muſt needs be as contrary as <hi>Heaven</hi> and <hi>hell.</hi>
+               </p>
+            </div>
+            <div n="2" type="chapter">
+               <head>CHAP. II. <hi>The</hi> INFORMERS <hi>Trade.</hi>
+               </head>
+               <p>YOu have ſeen the Informers Pedi<g ref="char:EOLhyphen"/>gree, come we now to his <hi>Trade,</hi> and pardon me that I put it before his <hi>Re<g ref="char:EOLhyphen"/>ligion,</hi> for ſo doth he;<note place="margin">1 Tim. 6.4, 5.</note> for <hi>gain is his god<g ref="char:EOLhyphen"/>lineſs:</hi> a thing charged upon <hi>Railers and evil ſurmiſers.</hi> You know his <hi>father,</hi> &amp; may thence gueſs at his <hi>trade,</hi> for proba<g ref="char:EOLhyphen"/>bly ſuch a parent will be wanting in no endeavors to <hi>educate</hi> his own children in his own <hi>occupation.</hi> When God asked Satan, whence comeſt thou?<note place="margin">Job 1.6, 7.</note> his anſwer was, <hi>From going to and fro in the earth, and from walking up and down in it.</hi> And ſuch muſt the Informers be to the ſame enquiry, unleſs he have learn'd to out-ly his father: however the Pſalmiſt ſpeaks
+<pb n="32" facs="tcp:121166:18"/> for him,<note place="margin">Pſal. 37.9.</note> That <hi>his tongue walketh through the earth.</hi>
+               </p>
+               <p>His Trade is a <hi>Myſtery</hi> (as ſome men call theirs) but <hi>of iniquity,</hi> of <hi>hidden things of dishoneſty.</hi> Particularly,</p>
+               <p>The <hi>Informer</hi> by trade is a <hi>Pedler,</hi> (for ſo the phraſe is) and a dealer too in <hi>pro<g ref="char:EOLhyphen"/>hibited commodities.</hi>
+                  <note place="margin">A radice <gap reason="foreign" resp="#OXF" extent="1 word">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </note> 
+                  <hi>Rokel</hi> is a <hi>Pedler,</hi> thence <hi>Rakil</hi> an <hi>Informer,</hi> the word uſed <hi>Lev.</hi> 19.16. <hi>Thou ſhalt not go up and down as a Talebearer among thy people.</hi> Thou ſhalt not <hi>walk a Talebearer,</hi> Ainſ. <hi>Slanderer, Backbiter, Quarrel-picker.</hi> Marg. <hi>Rakil</hi> is one that <hi>makes merchan<g ref="char:EOLhyphen"/>dize of words,</hi>
+                  <note place="margin">Ainſw. in Lev. 19.16.</note> 
+                  <hi>uttering them as wares, go<g ref="char:EOLhyphen"/>ing from place to place to ſpread abroad criminations of other men.</hi> Now <hi>walking</hi> in Scripture imports a <hi>ſet Trade,</hi> as <hi>walk<g ref="char:EOLhyphen"/>ing in Chriſt,</hi> the Trade of Chriſtianity; <hi>walking diſorderly,</hi> a diſorderly conver<g ref="char:EOLhyphen"/>ſation, ſo <hi>walking a Talebearer,</hi> the trade of Talebearing. A good man may poſſi<g ref="char:EOLhyphen"/>bly fall into it as his <hi>temptation,</hi> but none but a wicked will take it up as <hi>his Trade. He that walketh a Talebearer revealeth ſecrets.</hi>
+                  <note place="margin">Pro. 11.13. Marg. Heb.</note> He will tell you 'tis a ſecret, yet he muſt needs tell it; <hi>He ſits, and speaks againſt his brother,</hi>
+                  <note place="margin">Pſa. 50.20.</note> 
+                  <hi>and ſlandereth his own mothers ſon.</hi> Keep clear, Sirs, off this
+<pb n="33" facs="tcp:121166:18"/> Pedler, though a Brother: Paul was <hi>in peril among falſe Bretheren</hi> as much as <hi>by the Heathen.</hi>
+                  <note place="margin">1 Cor. 11.26.</note>
+               </p>
+               <p>You ſee I have not nick named the Trade, nor ſlandered the Slanderer in calling him Pedler, or in ſaying that he deals in forbidden Wares. Moſes forbids <hi>Talebearers,</hi> and Paul <hi>Tatlers,</hi> and calls them <hi>Buſie bodies,</hi>
+                  <note place="margin">1 Tim. 5.13. <gap reason="foreign" resp="#OXF" extent="1 span">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> 
+                     <hi>ebullio.</hi> Pſal. 45.1. Hebr.</note> 
+                  <hi>speaking things that they ought not.</hi> The word comes from the <hi>boyling of a pot,</hi> for as <hi>the heart</hi> of the godly is <hi>boyling up with a good matter:</hi> ſo the <hi>heart of the wicked, which is little worth,</hi> is vainly bubbling up with other mens matters, and caſting up ſuch things as it ought not.</p>
+               <p>We think perhaps becauſe the tongue is <hi>but a little member,</hi> that tongue-ſins are but <hi>little matters:</hi>
+                  <note place="margin">Jam. 3.6, 8.</note> but James ſaith <hi>the tongue is a world of iniquity, an un<g ref="char:EOLhyphen"/>ruly evil, full of deadly poiſon:</hi> and Jude,<note place="margin">Jude 9.</note> That <hi>Michael the Archangel durſt not bring a railing accuſation,</hi> no not <hi>againſt the Devil, but ſaid, The Lord rebuke thee.</hi>
+               </p>
+               <p>The ſin of <hi>Sycophancy,</hi> rendered <hi>falſe-accuſing, forbidden</hi> by John <hi>Baptiſt,</hi>
+                  <note place="margin">Luke 3.14. Chap. 19.8. <gap reason="foreign" resp="#OXF" extent="1 span">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. Planud. in vitâ Aeſopi</note> and <hi>repented of</hi> by <hi>Zachaeus,</hi> comes from <hi>ſhew<g ref="char:EOLhyphen"/>ing of figs;</hi> which ſome refer to the ſtory of <hi>Aeſop,</hi> who being traduced by his
+<pb n="34" facs="tcp:121166:19"/> guilty fellow ſervants for eating up his <hi>Maſters figs,</hi> and unable through an <hi>im<g ref="char:EOLhyphen"/>pediment in his ſpeech</hi> to vindicate himſelf by drinking warm water in his Maſters ſight, did clear not onely his <hi>ſtomach,</hi> but his <hi>innocence;</hi> the colloguing Informers being made to pledg him in the ſame li<g ref="char:EOLhyphen"/>quor, diſcharge both their ſtomach of the <hi>figs,</hi> and <hi>Aeſop</hi> of the <hi>crime;</hi> whence the flattering falſe accuſer was firſt call'd <hi>Sycophant.</hi>
+                  <note place="margin">
+                     <gap reason="foreign" resp="#OXF" extent="1 span">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. Plutarch.</note> Others refer it to the <hi>Athe<g ref="char:EOLhyphen"/>nian Informers</hi> ſet on work for diſcovery of ſuch as exported that kind of fruit, contrary to Law, who for lucre oft times would accuſe the innocent. But what ever was its riſe, it's certain, its <hi>uſe</hi> both in Scripture and other Authors, is for a <hi>flattering Informer,</hi> defamer, Tale-bear<g ref="char:EOLhyphen"/>er, falſe accuſer.</p>
+               <p>Now the Trade of this <hi>Rakil</hi> is not much unlike his, whom in <hi>Cambridg</hi> we call <hi>Rake-hell,</hi> who goes hunting about in every hole. Pedlers are <hi>wanderers,</hi> and ſo are Tale-tellers, which the Apoſtle well obſerves,<note place="margin">1 Tim. 5.13.</note> when he joyns <hi>wandering about from houſe to houſe,</hi> to <hi>tatlers,</hi> &amp;c. Yet himſelf when at <hi>Epheſus,</hi>
+                  <note place="margin">Acts 20.20.</note> went <hi>from houſe to houſe,</hi> but on a contrary errant, he did <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat to <hi>preach truth,</hi> which theſe
+<pb n="35" facs="tcp:121166:19"/> do to <hi>spread lies.</hi> Thus as Pedlers go round about the town, ſo theſe <hi>barkers</hi> and <hi>belchers go round about the city.</hi>
+                  <note place="margin">Pſal. 59.6, 7.</note>
+               </p>
+               <p>Pedlers will ſay that their <hi>packs are their own,</hi> when perhaps they are yet to <hi>pay for them:</hi> ſo will theſe, <hi>with our tongue will we prevail,</hi>
+                  <note place="margin">Pſal. 12.4.</note> 
+                  <hi>our lips are our own, who is Lord ever us?</hi> yet is there a God to call theſe men to an account, <hi>as Enoch hath propheſied,</hi>
+                  <note place="margin">Iude 15.</note> even <hi>for hard spee<g ref="char:EOLhyphen"/>ches.</hi> For how light ſoever men make of <hi>words,</hi> and call them but <hi>wind;</hi> yet Chriſt the judg ſaith,<note place="margin">Matth. 12.3.</note> 
+                  <hi>By thy words thou ſhalt be justified, and by thy words thou ſhalt be condemned:</hi> Therefore think whilſt thou art a <hi>trading</hi> of an <hi>after-reckoning.</hi>
+               </p>
+               <p>Pedlers will not want <hi>Cuſtomers</hi> of poſſibly they may be had, no more will Talebearers: They will even thruſt their Wares upon you: yet theſe Pedlers, (<hi>whiſperers, backbiters,</hi> Paul joyns them,<note place="margin">Rom. 1.29, 30.</note> and you ſhall ſeldom ſee them ſevered) love the <hi>darkeſt</hi> rooms beſt, as beſt be<g ref="char:EOLhyphen"/>friending their <hi>falſe</hi> wares.<note place="margin">Pſal. 64.5.</note> 
+                  <hi>They com<g ref="char:EOLhyphen"/>mune of laying ſnares privily: in ſecret places do they murther the innocent.</hi> They will enjoyn you to keep their names in ſecrecie, whilſt themſelves lay others o<g ref="char:EOLhyphen"/>pen: like thoſe Phariſees that <hi>bind bur<g ref="char:EOLhyphen"/>thens
+<pb n="36" facs="tcp:121166:20"/> on other mens ſhoulders, which them<g ref="char:EOLhyphen"/>ſelves will not touch with one of their fin<g ref="char:EOLhyphen"/>gers.</hi>
+               </p>
+               <p>Pedlers when they open their packs, have many gay things for you, to get ſomething out of you, <hi>Tinſel-riboning</hi> with almoſt an <hi>endleſs &amp;c.</hi> and ſo have theſe ſycophants, whom therefore Solo<g ref="char:EOLhyphen"/>mon calls <hi>potſheards covered with ſilver droſs.</hi>
+                  <note place="margin">Pro. 26.23.</note> And God himſelf ſaith of ſuch as <hi>walk with ſlanders,</hi>
+                  <note place="margin">Jer. 26.28, 30.</note> 
+                  <hi>Reprobate ſilver,</hi> or <hi>refuſe of ſilver ſhall men call them, for God hath rejected them.</hi>
+               </p>
+               <p>Thus as the Pedler ſhews forth this painted wares, ſo <hi>the falſe witneſs,</hi> ſaith Solomon,<note place="margin">Pro. 12.17.</note> 
+                  <hi>ſhews forth deceipt.</hi> Yet how poor ſoever their packs are, and dear ſoe<g ref="char:EOLhyphen"/>ver you pay for what you have, both would make you believe that they great<g ref="char:EOLhyphen"/>ly befriend you: you have ſuch a penny<g ref="char:EOLhyphen"/>worth as your neighbors muſt by no means know how you had it. Pray tell no body how <hi>I ſold it you,</hi> ſaith the Ped<g ref="char:EOLhyphen"/>ler; nor who <hi>told it you,</hi> ſaith the Infor<g ref="char:EOLhyphen"/>mer.</p>
+               <p>Pedlers will <hi>crouch</hi> and <hi>cringe</hi> for a good cuſtomer: ſo theſe Informers, as <hi>Zibah</hi> to <hi>David,</hi>
+                  <note place="margin">2 Sam. 16.4</note> 
+                  <hi>I humbly beſeech thee that I may find grace in thy ſight, my
+<pb n="37" facs="tcp:121166:20"/> Lord, O King. Maſter,</hi> ſaith the Pedler, I have ſuch a thing to ſell you. <hi>My Lord,</hi> ſaith the Informer, I have ſuch a thing to tell you.<note place="margin">Pſalm 10.7, 10.</note> 
+                  <hi>His mouth is full of deceipt and fraud, under his tongue is miſchief and vanity, be croucheth and humbleth himſelf that the poor may fall by his ſtrong ones.</hi>
+               </p>
+               <p>Pedlers will <hi>vend for you</hi> if you have any thing for their turn, as well as <hi>ſell to you;</hi> and perhaps if you do not offer it, they will ask it: your <hi>old broken ſilver, &amp;c.</hi> which when once they have gotten, let them alone to make the <hi>moſt of it.</hi> Thus Informers will <hi>export</hi> as well as <hi>import;</hi> and let them get out of you but a hint, though a <hi>broken</hi> one too, and I warrant you they will ſoon make more of it than you did. They will put into you ſome of their <hi>water</hi> to <hi>pump</hi> you the more eaſily.<note place="margin">Pro. 29.19. Jer. 20 10.</note> Therefore the Tale bearer is called an <hi>enticer with his lips. They waited for my halting, peradventure ſay they he will be enticed, and we ſhall pre<g ref="char:EOLhyphen"/>vail againſt him.</hi> And if yet they can get nothing out of you that they came for, it is not unlike that what them<g ref="char:EOLhyphen"/>ſelves would have ſold you, they will ſay they had it of you. Chriſt was charged with <hi>blaspemy</hi> by them that were them<g ref="char:EOLhyphen"/>ſelves
+<pb n="38" facs="tcp:121166:21"/> the <hi>blaſphemers.</hi> And <hi>Nero</hi> ſet <hi>Rome</hi> on fire, and then ſaid it was the <hi>Chriſtians,</hi> They can <hi>create,</hi> make ſome<g ref="char:EOLhyphen"/>thing out of nothing, what wonder then if they make <hi>more</hi> than is of what they ſee and hear?</p>
+               <p>Pedlers they <hi>bend</hi> their <hi>back</hi> for the <hi>pack,</hi>
+                  <note place="margin">Jer. 9.3.</note> and the Informer his <hi>tongue for lies:</hi> Both are too commonly artificial liers, counting lying their grace in putting off their ſlight wares ſo they do it cunningly. <hi>The babler</hi> in the Hebrew is called <hi>Ma<g ref="char:EOLhyphen"/>ſter of the tongue.</hi>
+                  <note place="margin">Ecc. 10.11.</note> He thinks its a great matter to tell a lie with a grace. Do not doubt, ſaith the Pedler, of what <hi>I ſell you,</hi> for I bought it of ſuch a one; or of what <hi>I tell you,</hi> ſaith the Informer, for I had it of ſuch a one.<note place="margin">Neh. 6.6.</note> 
+                  <hi>It is reported,</hi> ſaith he, <hi>&amp; Gamſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>u ſaith it.</hi>
+               </p>
+               <p>Pedlers will ſeem loath to part with what they long to be rid of, with too many proteſts, that if it were not <hi>to you,</hi> or for need, they would not part with it ſo: ſo the ſycophant hath ſomething to ſay, which he is very loath to ſpeak of, (as if informing forſooth went much againſt his grain) but <hi>neceſſity</hi> puts him upon it,<note place="margin">Vox fauci<g ref="char:EOLhyphen"/>bu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>beret.</note> and then he humms and hahs: at length out comes what he is with
+<pb n="39" facs="tcp:121166:21"/> child, till delivered of: but yet were it not for the due reſpect he hath <hi>to you,</hi> he ſhould not have ſpoke of it.<note place="margin">Pſal. 50.9.</note> Thus both ſorts of ſellers <hi>give their mouth to evil, and their tongue frameth deceipt.</hi> Thus have <hi>they taught their tongues to speak lyes:</hi> as if corrupted nature were not School Miſtreſs enough who teach<g ref="char:EOLhyphen"/>eth that <hi>from the womb,</hi>
+                  <note place="margin">Jerem. 9 5.</note> They will be ſure to have this baſe <hi>Art</hi> to help <hi>Nature;</hi>
+                  <note place="margin">Pſal. 58.3.</note> though ſome of them perhaps are none of the greateſt friends to more <hi>liberal Learning.</hi>
+                  <note place="margin">Pro. 16.30</note> 
+                  <hi>Solomon</hi> ſaith of the Sycho<g ref="char:EOLhyphen"/>phant, that <hi>he</hi> firſt <hi>ſhutteth his eys to de<g ref="char:EOLhyphen"/>viſe froward things,</hi> and then <hi>moveth his lips to bring the evil to paſs.</hi> And thus when the cunning Pedler hath impoſed on his credulous Cuſtomer, he laughs in his ſleeve. And the Tale-teller when he hath <hi>caſt arrows, and Fire-brands, and Death,</hi> yet becauſe he hath <hi>deceived his neighbor, he ſaith am I not in sport?</hi> And then as Pedlers probably ſleep not ſo con<g ref="char:EOLhyphen"/>tentedly if their Markets have not ſuc<g ref="char:EOLhyphen"/>ceeded proſperouſly,<note place="margin">Prov. 4.16</note> ſo theſe <hi>ſleep not ex<g ref="char:EOLhyphen"/>cept they have done Miſchief, and their ſleep is taken away except they cauſe ſome to fall.</hi>
+               </p>
+               <p>One thing I had almoſt forgot, which
+<pb n="40" facs="tcp:121166:22"/> the Pedler will for the moſt part be ſure to remember, being perhaps <hi>laſt</hi> in his <hi>mouth,</hi> yet not <hi>leaſt</hi> in his <hi>mind:</hi> And that is to ask you a <hi>piece of ſomthing</hi> be<g ref="char:EOLhyphen"/>fore he hath done with you: and if his modeſty do not ſerve to beg flatly for himſelf, yet he hath a partner ſome or o<g ref="char:EOLhyphen"/>ther, that would thank you for a piece of your bread, <hi>&amp;c.</hi> Thus <hi>the bread of deceipt lying</hi> or <hi>falſhood,</hi>
+                  <note place="margin">Pro. 20.17</note> (that is, bread ſo got<g ref="char:EOLhyphen"/>ten) <hi>is ſweet</hi> to the Sychophant. Thus <hi>Zibah</hi> by his Taletelling, and by his <hi>I humbly beſeech thee,</hi> to <hi>David,</hi> ſhares ſtakes with <hi>Mephiboſheth,</hi> nay had al<g ref="char:EOLhyphen"/>moſt turned him quite out of all, before he was once heard to anſwer for himſelf. In this ſence <hi>through Covetouſneſs they make Merchandize with fained words.</hi> It is foretold of the <hi>laſt days,</hi> firſt that <hi>men ſhall be lovers of their own ſelves,</hi> then <hi>falſe Accuſers.</hi> And ſupplanting is yoaked with ſlandering,<note place="margin">2 Tim. 3.1 2, 3.</note> 
+                  <hi>Take ye heed every one of his Neighbor, and trust ye not in any Brother, for every Brother will utterly ſupplant, and every Neighbor will walk with ſlanders.</hi> The Cuckow picks a <hi>hole</hi> in another birds <hi>Eggs,</hi> that ſhe may lay her own in the ſame <hi>neſt.</hi>
+                  <note place="margin">Jerem. 9.4.</note> It was <hi>Na<g ref="char:EOLhyphen"/>baths good vineyard</hi> that made him a <hi>bad
+<pb n="41" facs="tcp:121166:22"/> man,</hi> and that which made him unfit to <hi>live,</hi> was that which he had to <hi>live upon.</hi> It is not always mens walking <hi>ill</hi> in their <hi>place,</hi> as the <hi>goodneſs</hi> of the <hi>place</hi> that they walk in, that makes them Criminal. The Carry on Crow can come cleer off,<note place="margin">Dat venia<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> corvis vexat cenſura <gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>lumbas.</note> without being perhaps ſo much as aimed at, though a <hi>foul bird</hi> and a <hi>fair mark,</hi> when ſome other bird is knockt down, not becauſe it is more miſchievous but becauſe it hath <hi>better fleſh.</hi> The <hi>Eagle-eyed</hi> Informer will not truſt a <hi>fly.</hi> You ſhall have happily here or there a <hi>ten</hi> or <hi>twenty pound</hi> Vicar that hangs ſtill like an <hi>old Cobweb</hi> in the ſame <hi>thatch</hi> where he was Twenty years ago, yet was never touched with the <hi>beeſom</hi> of <hi>Sequestrati<g ref="char:EOLhyphen"/>on:</hi> not becauſe he was a <hi>leſs ſinner than others upon whom</hi> Sequeſtration <hi>fell;</hi> or the ſouls of poor people <hi>leſs pretious</hi> there; but the Living <hi>leſs worth,</hi> and the Informer beſides his Charges to <hi>Weſt<g ref="char:EOLhyphen"/>minſter,</hi> and the indifferent ſupply of the place would not have wherewithal ſuffi<g ref="char:EOLhyphen"/>ciently to recruit the expence of his zeal in procuring an <hi>Order of Sequeſtration</hi> of it into his own hands till further Or<g ref="char:EOLhyphen"/>der. I ſpeak not thus for opprobry, but with grief. But if any be ſo peſtilent and
+<pb n="42" facs="tcp:121166:23"/> profligate, as ſlanderouſly to accuſe <hi>meer<g ref="char:EOLhyphen"/>ly</hi> to miſchieve others, I need not ſpend paper to tell you whoſe trade they are of, However make the beſt of the <hi>proditors</hi> bad Markets: If a <hi>Judas</hi> ſeem gainer by the ſale of the <hi>Innocent,</hi> he will one day be more haſty to get rid of, then ever he was to get his pay,<note place="margin">Mat. 27.3</note> and will cry, <hi>take it again</hi> when he burns his fingers.</p>
+               <p>Pedlers are not over much <hi>at home</hi> in their <hi>own houſes:</hi> no more I fear are In<g ref="char:EOLhyphen"/>formers in their <hi>own hearts.</hi> If they were, they would find leſs <hi>time,</hi> and per<g ref="char:EOLhyphen"/>haps leſs <hi>reaſon</hi> to be ſo buſie abroad; but this is too natural.<note place="margin">1 Sam. 18.9</note> A <hi>Saul</hi> can <hi>eye</hi> a <hi>Da<g ref="char:EOLhyphen"/>vid,</hi> a good man, whilſt himſelf is poſ<g ref="char:EOLhyphen"/>ſeſſed <hi>with an evil spirit.</hi> It is eaſie to look about us, to ſee how <hi>other men</hi> go, but a kind of pain (for it will coſt ſome <hi>ſtooping</hi> which we love not) to ſee how we <hi>our ſelves</hi> go. While we view the blemiſhes of other faces, we ſee not our own: but did we look on our own <hi>natural face</hi> in Gods <hi>glaſs</hi> more, we ſhould have leſs leaſure to gaze at other mens. Could you follow the <hi>Rake-hell</hi> home, that is ſuch a gadder abroad, I doubt you would find things in none of the beſt order. There is <hi>one Informer</hi> would be incou<g ref="char:EOLhyphen"/>raged,
+<pb n="43" facs="tcp:121166:23"/> for he hath Gods <hi>licence,</hi> and that is <hi>Conſcience.</hi> Would we but often e<g ref="char:EOLhyphen"/>nough read over this <hi>Monitors bill,</hi> and be but enough Criticks upon our own hearts, which are neareſt us, and as wil<g ref="char:EOLhyphen"/>ling to <hi>take</hi> informations againſt <hi>our ſelves,</hi> as ſome are to <hi>get</hi> them againſt <hi>others,</hi>
+                  <note place="margin">
+                     <gap reason="foreign" resp="#OXF" extent="1 span">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. 1 Pet. 4.1<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 1 Kings 20.49.</note> we ſhould not be as the Apoſtles word is, ſuch <hi>buſie Biſhops</hi> in other mens matters. But <hi>whilſt I was buſie here and there,</hi> ſaith he, <hi>he</hi> whom I had in charge <hi>was gone.</hi> What is become of <hi>family-Religion, catechizing</hi> children, <hi>inſtru<g ref="char:EOLhyphen"/>cting</hi> ſervants, <hi>ſecret duty, cloſet work, heart examination, &amp;c.</hi> ſince thou haſt taken up this trade, and been buſie <hi>pick<g ref="char:EOLhyphen"/>ing</hi> a <hi>talo</hi> here, and a <hi>thank</hi> there?<note place="margin">Can. 1.6.</note> Have <hi>they made thee a keeper of others vine<g ref="char:EOLhyphen"/>yards, and thine own vineyard haſt thou not kept?</hi> Think man if ſo, that thy eve<g ref="char:EOLhyphen"/>ry <hi>Information</hi> againſt another is a <hi>double Indictment</hi> againſt thy ſelf. Let thy cha<g ref="char:EOLhyphen"/>rity then <hi>begin at home</hi> (for ſo is ſelf-cenſuring) and then thou wilt be leſs un<g ref="char:EOLhyphen"/>charitable when thou comeſt abroad. In my ſmall obſervation, <hi>beſt men</hi> are leaſt cenſorious of others, and moſt critical as to themſelves. However he that loves to be <hi>exhaling dunghills</hi> (as the Informer
+<pb n="44" facs="tcp:121166:24"/> loves to do) if he would do it with cre<g ref="char:EOLhyphen"/>dit, had need be clear himſelf, as <hi>the ſun</hi> is.<note place="margin">John 8.7.</note> 
+                  <hi>Let him that is without ſin caſt the firſt stone.</hi>
+               </p>
+               <p>Pedlers ſometimes will have ſome <hi>weapon</hi> in their <hi>hands,</hi> which the Inform<g ref="char:EOLhyphen"/>er carries in his <hi>head,</hi> whoſe <hi>tongue,</hi> ſaith <hi>David,</hi>
+                  <note place="margin">Pſal. 59.4.</note> 
+                  <hi>is a ſharp ſword.</hi> And where they ſuſpect any difficulty or danger in their march, they love company, ſuch as their own: and ſo do theſe <hi>Talebearers</hi> to have <hi>ſeconds</hi> and <hi>vonchers.</hi>
+                  <note place="margin">Jer. 20.10.</note> 
+                  <hi>Report, ſay they, and we will report it.</hi> Thus are theſe <hi>foxes</hi> tied <hi>tale</hi> to <hi>tale,</hi> as <hi>Sampſons</hi> were turned <hi>tail</hi> to <hi>tail,</hi> whilſt they <hi>carry fire betwixt them</hi> from place to place. You ſee why the <hi>hatred hiding-lyer</hi> is ſaid by <hi>Solomon</hi> to <hi>utter a ſlander,</hi>
+                  <note place="margin">Jud. 15.50</note> a phraſe proper to a Pedler who <hi>utters his Wares.</hi> But let me tell you it is ſo <hi>bad a Trade</hi> that no man can live well upon it, no not in this world: <hi>for he that will love life,</hi> and <hi>ſee good days, let him refrain his tongue from evil, and his lips that they speak no guile, let him eſchew evil and do good, let him ſeek peace &amp; enſue it.</hi> Reader, whoſoever thou art, let me warn thee though thou love not thy Neighbor, yet as thou <hi>lov'ſt thy life,</hi> to take heed of this Traffique,
+<pb n="45" facs="tcp:121166:24"/> warn thine <hi>Eve</hi> for her Grandmothers ſake that ſhe <hi>pry not</hi> into the <hi>Pack.</hi> Let not this Pedler, if thou canſt help it, ever put his ſtaff within thy door; and be ſure to trayn up thy children to a better <hi>Trade.</hi> I have been <hi>too long</hi> upon the Informers Trade, and <hi>ſo</hi> hath hee; Let us now both bid adiew to it. I ſhall be <hi>ſhorter</hi> in his Religion, for that is it wherein he is <hi>ſhort,</hi> elſe would he not have been ſo <hi>long</hi> in his Trade: That's the <hi>ſhort</hi> and the <hi>long</hi> of it.</p>
+            </div>
+            <div n="3" type="chapter">
+               <head>CHAP. III. <hi>The</hi> INFORMERS <hi>Religion.</hi>
+               </head>
+               <p>THe <hi>moral Pedler</hi> for the moſt part carrieth what he hath in a <hi>painted box. His hatred is covered by deceipt.</hi>
+                  <note place="margin">Prov. 26.26</note> He hath <hi>rough hands,</hi> yet <hi>Jacobs voice. When he speaks fair, believe him not,</hi>
+                  <note place="margin">Verſe 25.</note> (ſaith <hi>So<g ref="char:EOLhyphen"/>lomon</hi>) or when he <hi>maketh his voice gra<g ref="char:EOLhyphen"/>cious.</hi> 'Tis not ſo, yet he makes it ſo.<note place="margin">Marg. after the Hebrew</note> It would ſpoil his <hi>informing</hi> if he were not <hi>in the form.</hi> The Pedler had as good be out of the <hi>world</hi> as <hi>faſhion;</hi> he muſt have to fit that, or give over. Is godlineſs in
+<pb n="46" facs="tcp:121166:25"/> credit? the Informer will have a form of it: for leſs than that would <hi>hinder</hi> him in his Trade; but no more, for that would quite <hi>overthrow</hi> it. The <hi>falſe Ac<g ref="char:EOLhyphen"/>cuſers,</hi>
+                  <note place="margin">2 Tim. 3.3.5</note> whom <hi>Paul</hi> calls <hi>Devils,</hi> are yet ſaid to <hi>have a form of Godlyneſs.</hi> They put on the <hi>Saint,</hi> as <hi>Judas</hi> and <hi>Jeſabel,</hi> to play the <hi>Devil.</hi> That <hi>Devils</hi> ſhould co<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>et to be under a <hi>form of Godlyneſs</hi> ſeems ſomewhat ſtrange; but then he ads, <hi>they deny the power,</hi> and that takes oft the won<g ref="char:EOLhyphen"/>der: for had they not the <hi>form,</hi> they could not carry in a falſe ſence ſuch a <hi>Grace in Traducing:</hi> But had they the power, they would have more <hi>Grace</hi> (in a true ſence) <hi>then to Traduce.</hi> So then, hear ſuch a one <hi>speak</hi> and you may take him for a <hi>Jacob,</hi> but if ever you come to <hi>feel him,</hi> you will be perhaps of another mind.</p>
+               <p>
+                  <hi>Birds</hi> of <hi>Prey</hi> (how curiouſly colour<g ref="char:EOLhyphen"/>ed ſoever,) are pronounced <hi>unclean,</hi> as <hi>Eagles,</hi>
+                  <note place="margin">Deut. 14.12.13. <hi>&amp;c.</hi>
+                  </note> 
+                  <hi>Vultures, Cormorants</hi> &amp;c. And ſo is the tongue that loves like <hi>Doegs, all devouring words.</hi>
+                  <note place="margin">Iſaiah 52.4. 1 Sam. 21.7</note> And yet 'tis ſaid of that very <hi>Doeg,</hi> that he <hi>was detained be<g ref="char:EOLhyphen"/>fore the Lord.</hi> He was not it ſeems void of a Form of Religion, who yet bloodily betrays and butchers in the next,<note place="margin">Chap. 22.</note> thoſe
+<pb n="47" facs="tcp:121166:25"/> very Miniſters with whom he had joyn'd in waiting upon God in the Chapter be<g ref="char:EOLhyphen"/>fore.<note place="margin">James 1.26. <gap reason="foreign" resp="#OXF" extent="1 span">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> Deu. 14.19 Some few excepted, Lev. 11.</note> 
+                  <hi>Wherefore if any man ſeem to be re<g ref="char:EOLhyphen"/>ligious and bridleth not his tongue, that mans religion is vain.</hi> He hath a <hi>Reli<g ref="char:EOLhyphen"/>gion,</hi> but it is but <hi>ſeeming,</hi> therefore <hi>vain.</hi>
+               </p>
+               <p>I find alſo that <hi>every creeping thing that flieth</hi> was <hi>unclean,</hi> which ſeems moſt to fit the <hi>Informer,</hi> who <hi>creeps up and down</hi> to pick up tales, and then <hi>hath wings</hi> like a bird <hi>to carry the matter.</hi>
+                  <note place="margin">2 Tim. 3.6.</note> Theſe <hi>creepers into houſes</hi> (as the Apoſtle calls them) though never ſo <hi>heady,</hi>
+                  <note place="margin">Ver. 4.</note> (or high-flown) yet becauſe they are <hi>falſe accuſers,</hi> are therefore to be <hi>turned away from,</hi>
+                  <note place="margin">Ver. 3.</note> (as be<g ref="char:EOLhyphen"/>ing unclean in a Goſpel ſenſe) notwith<g ref="char:EOLhyphen"/>ſtanding their gay feathers,<note place="margin">Ver. 5.</note> though <hi>ha<g ref="char:EOLhyphen"/>ving a form of godlineſs.</hi>
+               </p>
+               <p>There is yet further cauſe why the In<g ref="char:EOLhyphen"/>former ſhould be in love with a form; for as it credits him in putting off, ſo in taking up of his wares. As he could not ſo hope to be paſſant without aiming at the <hi>Shibboleth:</hi>
+                  <note place="margin">Jud. 12.5, 6. <hi>Hail Maſter</hi> John 18.<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> ſo he reckons that by pretending to <hi>kiſs Chriſt,</hi> he may beſt play the <hi>Judas;</hi> for none kept more faw<g ref="char:EOLhyphen"/>ning or <hi>complementing</hi> than the Traitor, and ſo was ſo much in credit, that he was <hi>a Secretis</hi> to our Savior. <hi>He that betrayd
+<pb n="48" facs="tcp:121166:26"/> knew the place: for Jeſus ofttimes reſerted thither with his Diſciples.</hi>
+               </p>
+               <p>A <hi>Sepulchre</hi> is ſuch a thing as none would covet to come near it, were it not <hi>covered</hi> and <hi>painted.</hi>
+                  <note place="margin">Rom. 3.13.</note> Such mens <hi>throat is an open ſepulchre,</hi> which every one would fear to fall into, had it not the <hi>Epiglottis</hi> the ſmooth covering of a deceitfull tongue. The Apoſtle ſpeaks of ſome that became <hi>brethren,</hi> though <hi>falſe</hi> ones, to <hi>ſpie out the liberty</hi> of thoſe that are true.<note place="margin">Gal. 2.4. Luk. 20.20.</note> Thus <hi>feignedly juſt men</hi> were appointed for ſpies upon him, that was truly ſo. <hi>The wolf</hi> in his own skin would affright the ſheep,<note place="margin">Acts 9 13. Ver. 26.</note> (as <hi>Ananias</hi> and the Diſciples were afraid of <hi>Saul</hi> who appeared an o<g ref="char:EOLhyphen"/>pen perſecutor) he muſt therefore put on <hi>ſheeps cloathing,</hi>
+                  <note place="margin">Mat. 7.15.</note> that he may raven the more among the ſheep.</p>
+               <p>Nay poſſibly men blinded in <hi>their judgment,</hi> by <hi>Gods,</hi> may conceit that their <hi>ſeeming holineſs</hi> may make ſome a<g ref="char:EOLhyphen"/>mends for their <hi>real unrightouſneſs.</hi> Elſe how ſhould they ſay,<note place="margin">Iſaiah 66.5.</note> 
+                  <hi>Let the Lord be glo<g ref="char:EOLhyphen"/>rified when they hate their bretheren, and caſt them forth for his names ſake, whom he hath juſtified.</hi>
+               </p>
+               <p>How nice were thoſe envious Accuſers of the Bleſſed Jeſus,<note place="margin">John 8.28.</note> that <hi>would not them<g ref="char:EOLhyphen"/>ſelves
+<pb n="49" facs="tcp:121166:26"/> go into the judgment-hall, leſt they ſhould be defiled, but that they might eat the Paſſover.</hi>
+                  <note place="margin">Ver. 29.</note> 
+                  <hi>Therefore Pilate went out to them, and ſaid, What accuſation bring you againſt this man?</hi> Nay it ſeems they look'd on themſelves as ſuch pure Mer<g ref="char:EOLhyphen"/>chants, that they ſeem to take it ill at his hands that he takes not off all their pack by whole-ſale,<note place="margin">Dolus in uni<g ref="char:EOLhyphen"/>verſalibus.</note> (as Informers will take ſnuff if you take not all upon their truſt) <hi>They anſwered and ſaid unto him,</hi>
+                  <note place="margin">Ver. 30.</note> 
+                  <hi>If he had not been a malefactor, we would not have delivered him unto thee.</hi>
+                  <note place="margin">Simulata ſanctitas duplex ini<g ref="char:EOLhyphen"/>quitas.</note> What do you ſuſpect us that have ſuch ſcrupulous conſciences, that we would have been Accuſers if he had not been guilty? I reflect not here on <hi>holineſs,</hi> but rip up <hi>hypocriſie.</hi>
+                  <note place="margin">Jam 1.26. <gap reason="foreign" resp="#OXF" extent="1 span">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> Therefore James betwixt <hi>ſeeming to be religious</hi> and <hi>not bridling the tongue,</hi> puts in <hi>ſelf-deceipt.</hi> 'Tis the leſs then to be wondered at, that under ſem<g ref="char:EOLhyphen"/>blance of Religion, ſuch can <hi>deceive o<g ref="char:EOLhyphen"/>thers,</hi> who have firſt <hi>deceived their own heart.</hi> A fair item to all <hi>others</hi> not to <hi>o<g ref="char:EOLhyphen"/>vertruſt</hi> him that deceives <hi>himſelf.</hi>
+               </p>
+               <p>You have had a view of the Informer, <hi>How religious</hi> he is, and <hi>Why;</hi> yet but <hi>overly</hi> of that which is but <hi>ſuperficial.</hi> Perhaps if you follow cloſe at his heels
+<pb n="50" facs="tcp:121166:27"/> for a particuler ſurvey of his Saint ſhip in his houſe or cloſet, you might too fre<g ref="char:EOLhyphen"/>quently find his tongue ſo <hi>tired</hi> with tra<g ref="char:EOLhyphen"/>vailing abroad, that by the time it gets home, it hath too little either <hi>liſt</hi> or <hi>lei<g ref="char:EOLhyphen"/>ſure</hi> to <hi>praiſe</hi> or to <hi>Pray.</hi> However we ſhall take notice of thoſe particular <hi>De<g ref="char:EOLhyphen"/>votions</hi> that himſelf not unwillingly ex<g ref="char:EOLhyphen"/>poſeth to publick view; His ſet <hi>Fasting</hi> and <hi>publick Hearing.</hi>
+               </p>
+               <p>The Informer will keep a <hi>Fast him<g ref="char:EOLhyphen"/>ſelf.</hi> when he intends by it perhaps the taking of the <hi>bread out of your mouth.</hi> And will <hi>hang down his head,</hi>
+                  <note place="margin">Iſa. 58 4.5.</note> when he minds to have at yours. There is a <hi>Faſt<g ref="char:EOLhyphen"/>ing for ſtrife and debate,</hi> which though God doth <hi>not chuſe,</hi> yet he doth. They whom <hi>Jezabel</hi> ſuborned againſt inno<g ref="char:EOLhyphen"/>cent <hi>Naboth,</hi> muſt by no means forſwear themſelves till they have firſt kept a <hi>Faſt,</hi> either, as if <hi>real perjury</hi> were to be pre<g ref="char:EOLhyphen"/>viouſly expiated, by this <hi>counterfit piety,</hi> or elſe as if it were diſorderly to falſify againſt man, without lying to God in the firſt place, as if the needle of a double tongue did diſdain to draw after it ſuch a ſlender threed as a ſingle ſin. <hi>Proclaime a Faſt,</hi>
+                  <note place="margin">1 K 21.9.10</note> 
+                  <hi>and ſet</hi> Naboth <hi>on high, and ſet two men ſons of</hi> Belial <hi>before him, to bear
+<pb n="51" facs="tcp:121166:27"/> witneſs againſt him</hi> &amp;c. So commanded that <hi>Jezabel,</hi>
+                  <note place="margin">2. Kin. 9.30</note> whoſe <hi>Religion</hi> like her <hi>Beauty</hi> was but <hi>paint-deep,</hi> and ſo did her <hi>Knights of the Poſt,</hi> thoſe ſons of <hi>Belial.</hi>
+               </p>
+               <p>For the other point of his <hi>Religion,</hi> to wit, his publick <hi>Hearing;</hi> He will often be an auditor where he leaſt loves the Preacher, which you will not think ſtrange when you conſider his errand, which is not to <hi>get any thing by</hi> the Mi<g ref="char:EOLhyphen"/>niſter, (for he takes himſelf already to be <hi>wiſer then his teacher,</hi> or however to be now too old to be a <hi>Learner</hi> who is turned to be <hi>Informer,</hi>) but to <hi>get ſome<g ref="char:EOLhyphen"/>thing againſt</hi> the Miniſter: and perhaps the beſt Preacher ſhall be moſt haunted with ſuch Hearers; as our Saviour him<g ref="char:EOLhyphen"/>ſelf, you may well think 'twas not for love of him that the Phariſees found him Hearers,<note place="margin">Mat. 22.15</note> but <hi>to entangle him in his ſpeech.</hi> Yet theſe Auditors will ſeem ap<g ref="char:EOLhyphen"/>plauders,<note place="margin">Mat. 12.13</note> 
+                  <hi>Maſter we know that thou art true, and teacheſt the way of God in truth, neither carest thou for any man</hi> &amp;c. This they did,<note place="margin">Luk. 20 20.</note> 
+                  <hi>Mark</hi> ſaith to <hi>catch him in his words,</hi> and <hi>Luke</hi> ſaith, that they <hi>might take hold of his words,</hi> and ſo of him too, not by Faith, but by fraud and fury. Thus they conſult him in a caſe of Conſcience,
+<pb n="52" facs="tcp:121166:28"/> not to be informed, but to Inform, <hi>that they might accuſe him.</hi> And if it were thus done to the Maſter,,<note place="margin">Mat. 12.10</note> 
+                  <hi>the ſervant is not above his Lord.</hi>
+               </p>
+               <p>
+                  <note place="margin">Jer. 37.13. <hi>Capt. Irijah.</hi>
+                  </note>Thus <hi>Jeremiah</hi> that was the beſt affect<g ref="char:EOLhyphen"/>ed man amongſt them, is charged by a <hi>Captain</hi> amongſt the <hi>Iſraelites</hi> to be a <hi>faller off to the Caldeans,</hi> and all becauſe of his honeſt and plain dealing.</p>
+               <p>
+                  <note place="margin">Aut inveni<g ref="char:EOLhyphen"/>am, aut fa<g ref="char:EOLhyphen"/>ciam.</note>You ſee then what the <hi>Informer</hi> comes for, which he will either find or make before he go away. He deals with what he hears, as <hi>Procruſtes</hi> with his gueſts, cuts off what's <hi>too long,</hi> and ſtretcheth out what's <hi>too ſhort</hi> for his turn. He <hi>wreſts</hi> what he hears to the Preachers <hi>de<g ref="char:EOLhyphen"/>struction,</hi>
+                  <note place="margin">2 Pet. 3.16 Pſal. 56.5</note> as ſome do the <hi>Scriptures</hi> to their own. <hi>Davids words</hi> were <hi>wreſted daily to his hurt,</hi> and <hi>Paul</hi> was <hi>ſlandrouſly reported,</hi>
+                  <note place="margin">Rom. 3.8.</note> 
+                  <hi>and ſome affirmed that he ſaid what he ſaid not.</hi>
+               </p>
+               <p>He hath a ſingular faculty both of <hi>Judg<g ref="char:EOLhyphen"/>ment</hi> and <hi>Memory,</hi> which he exerciſeth upon what he hears. He hath ſo <hi>piercing</hi> a <hi>Judgment,</hi> that he underſtands that by the Sermon that no body elſe can, and that the Miniſter never meant; and ſo ſtrange a memory that he can remember that which was never ſpoken.</p>
+               <pb n="53" facs="tcp:121166:28"/>
+               <p>To ſhut up his Religion, I muſt fur<g ref="char:EOLhyphen"/>ther adde, that all the <hi>practical improve<g ref="char:EOLhyphen"/>ment</hi> that he ever makes of what he hears, is onely <hi>An Uſe of</hi> INFORMATION. Witneſs that <hi>Michajah the ſon of</hi> Gema<g ref="char:EOLhyphen"/>riah in the Reign of <hi>Jehoiakim.</hi>
+                  <note place="margin">Jeremi. 36 11.16.</note> What is further in his Religion, you may gueſs by the man himſelf; that is, when Ser<g ref="char:EOLhyphen"/>mon is done he intends a <hi>Repetition,</hi> ſuch as you may expect by what hath been told you,<note place="margin">Am 7.10.11</note> even ſuch as <hi>Amaziah the Priest of Bethel made to</hi> Jeroboam <hi>King of Iſrael, ſaying,</hi> Amos <hi>hath conspired againſt thee in the midſt of the Houſe of Iſrael, the Land is not able to bear his words, for thus</hi> Amos <hi>ſaith,</hi> &amp;c. And when he thus <hi>Re<g ref="char:EOLhyphen"/>peats,</hi> he will be angry if you will not believe him, more then himſelf did the Miniſter that Preached the Sermon.</p>
+            </div>
+            <div n="3" type="chapter">
+               <head>CHAP. III. <hi>The</hi> INFORMERS <hi>Arraignment.</hi>
+               </head>
+               <p>I Now come to the <hi>Informant</hi> againſt the <hi>Informer,</hi> and juſtly to deal with this <hi>Adonibozek,</hi>
+                  <note place="margin">Judg. 1.7.</note> as he hath injuriouſly dealt with others, <hi>Nec Lex eſt juſtier ulla,</hi> &amp;c.</p>
+               <pb n="54" facs="tcp:121166:29"/>
+               <p>
+                  <hi>There is no Law more juſt than that by which</hi>
+               </p>
+               <p>
+                  <hi>Th' unjuſt's thrown in, that digs the juſt a ditch.</hi>
+               </p>
+               <p>Onely being much a ſtranger to the formalityes of <hi>our Law,</hi> as he whom I implead is altogether to the tenour of <hi>Gods.</hi> I endorſe on his Indictment <hi>a true Bill,</hi> yet am I <hi>contented,</hi> where need is, that <hi>this Bill be mended in form but not</hi> altered in ſubſtance.</p>
+               <p>The firſt thing therefore that I charge on the Informer is <hi>Defamation:</hi>
+                  <note place="margin">Eccle. 7.1.</note> 
+                  <hi>A good Name is as a pretious Ointment,</hi> but then the Informer is as a <hi>Fly in the box; I heard,</hi>
+                  <note place="margin">Jer. 20.10.</note> ſaith <hi>Jeremy, the Defaming of ma<g ref="char:EOLhyphen"/>ny.</hi> Now as Defamation bears an <hi>Action</hi> amongſt Men, ſo eſpecially in <hi>Heaven,</hi> where God hath ſet up a <hi>Court of Honor</hi> for the Innocent, where he both <hi>pleads their Cauſe and executes Judgment for them, till he bring forth their Righteouſ<g ref="char:EOLhyphen"/>neſs as the light, and their Judgment as the noon day.</hi> Therefore what <hi>Jeremiah</hi> calls defaming,<note place="margin">Rom. 3.8. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. 1 Cor. 4.13. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </note> 
+                  <hi>Paul</hi> calls Blaſpheming, for complaining that himſelf, and the reſt of the Apoſtles were <hi>ſlandorouſly Report<g ref="char:EOLhyphen"/>ed</hi> and <hi>Defamed,</hi> as we read, the word in both places is <hi>Blasphemed</hi> Cr.</p>
+               <pb n="55" facs="tcp:121166:29"/>
+               <p>The Scripture makes God the <hi>Guardi<g ref="char:EOLhyphen"/>an</hi> of the Innocent; now as no man can commence a ſuit to the prejudice of the Orphan without taking in the <hi>Guardian,</hi> ſo the reproaches of them that reproach the Innocent fall upon God;<note place="margin">Mat. 15.19.</note> and hence to <hi>falſe witneſſes</hi> are added <hi>Blasphemyes.</hi> As is he that by lying would make him<g ref="char:EOLhyphen"/>ſelf better, <hi>(I know the blaſphemy of thoſe that ſay they are Jews and are not)</hi> ſo is he that falſly repreſents another as worſe then he is.<note place="margin">Revel. 2.9.</note> 
+                  <note place="margin">Pro. 17.15.</note> 
+                  <hi>He that juſtifieth the wicked and condemneth the juſt, even they both are abomination to the Lord.</hi>
+               </p>
+               <p>Next I preſent the Informer by the name of Sycophant <hi>alias</hi> Tale-bearer, as a <hi>Common Barretour,</hi> an Inciter of liti<g ref="char:EOLhyphen"/>gations and vexations quarrelings a<g ref="char:EOLhyphen"/>mong Men. <hi>Solomon</hi> yokes a <hi>falſe wit<g ref="char:EOLhyphen"/>neſs that ſpeaks Lyes,</hi>
+                  <note place="margin">Prov. 6.19.</note> and him that <hi>ſow<g ref="char:EOLhyphen"/>eth diſcord among brethren,</hi> for a <hi>froward man ſoweth ſtrife,</hi>
+                  <note place="margin">Chap. 16.28.</note> 
+                  <hi>and a whiſperer ſepa<g ref="char:EOLhyphen"/>rateth chief friends.</hi> You ſe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> his Huſband<g ref="char:EOLhyphen"/>ry:<note place="margin">Mat. 13.25.</note> His <hi>Seeds time</hi> is like that of the <hi>En<g ref="char:EOLhyphen"/>vious man,</hi> that ſoweth <hi>Tares,</hi> and then his <hi>harveſt</hi> is, when he ſees not <hi>corn,</hi>
+                  <note place="margin">Pro. 17.9.</note> but <hi>men</hi> together <hi>by the Ears. He that covers a Tranſgreſſion ſeeketh love, but he that repeateth a matter ſeparateth very friends.</hi>
+                  <pb n="56" facs="tcp:121166:30"/> Oh how perilous as to <hi>ſubſtance</hi> are our Breaches for <hi>Circumſtances</hi> ſince the <hi>wound</hi> hath taken <hi>wind</hi> by falſe fame and continually been kept a chafing by evil <hi>Interpreters,</hi> and worſe <hi>Interpraters</hi> a<g ref="char:EOLhyphen"/>mong diſſenting Brethren. If the phraſe be not allowable, no more let the thing be. This Informer is a pernicious <hi>Ambi<g ref="char:EOLhyphen"/>dexter</hi> at the handling, I mean, of his <hi>double tongue.</hi>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 
+                     <hi>Reynolds</hi> Gods reveng againſt Mur<g ref="char:EOLhyphen"/>ther.</note> Strange inſtances hereof do occur in reading, too prolix to be here inſerted. He oft kils <hi>two birds</hi> with <hi>one ſtone.</hi> Perſuades if it may be, the Huſband to doubt the Wifes <hi>Loyalty,</hi> and the Wife to diſpute the Husbands <hi>Love;</hi> re<g ref="char:EOLhyphen"/>joycing <hi>ſecretly</hi> to abate that in <hi>both,</hi> the want whereof, he <hi>ſubtily</hi> laments in <hi>either.</hi> Such pranks he can play between <hi>Magistrate</hi> and <hi>Miniſter,</hi> one and ano<g ref="char:EOLhyphen"/>ther; and who, if you will believe him, ſuch a friend in the Interim, to them both, as he that makes them Enemyes to each other, who had had no quarrel had they heard of none? And thus, as the ready way to make ſome <hi>bluſh,</hi> is to tell them that they <hi>do ſo;</hi> ſo by telling them that they are Enemyes,<note place="margin">Pro. 26.21. and 20.</note> he <hi>makes</hi> them ſo. <hi>As coals are to burning coals and wood to fire, ſo is a contentious man to kindle
+<pb n="57" facs="tcp:121166:30"/> ſtrife. Where no wood is, the fire goes out, ſo where there is no Tale-bearer or Whi<g ref="char:EOLhyphen"/>ſperer the ſtrife ceaſes,</hi> or is ſilent.<note place="margin">Marg. after the Hebrew</note> So then, as we deſire to ſilence the <hi>noiſe</hi> of the <hi>ſtrife,</hi> let us ſtop our Ears to the <hi>News</hi> of the <hi>Whisperer.</hi>
+               </p>
+               <p>Alſo I preſent the ſaid Informer for <hi>Bloudſhed</hi> and <hi>Battery,</hi> for that he <hi>with force of arms,</hi> that is to ſay, with <hi>ſwords, ſtaves, clubs,</hi> or other <hi>Offenſive weapons</hi> did <hi>aſſault, wound,</hi> or otherwiſe <hi>evil in<g ref="char:EOLhyphen"/>treat,</hi>
+                  <note place="margin">Hebr. 7.2</note> 
+                  <hi>contrary to the peace of our ſoverain Lord the King</hi> Jeſus Chriſt, who is <hi>King of Salem, that is, Peace,</hi> ſundry of his Majeſties <hi>peaceable</hi> and good Subjects.</p>
+               <p>
+                  <hi>They ſpeak not peace,</hi>
+                  <note place="margin">Pſa. 35.30.</note> 
+                  <hi>but they deviſe de<g ref="char:EOLhyphen"/>ceitful matters againſt them that are quiet in the land.</hi>
+                  <note place="margin">Prov. 25.18</note> Now <hi>he that bears falſe wit<g ref="char:EOLhyphen"/>neſs againſt his Neighbor, is a maul and a ſword, and a ſharp arrow.</hi> A maul, there is <hi>Battery;</hi> a ſword, there is <hi>Blood-ſhed;</hi> and a ſharp Arrow, that's <hi>worſe</hi> than the other.<note place="margin">Jer. 93. v. 20</note> He hath a <hi>ſubtil way</hi> of wound<g ref="char:EOLhyphen"/>ing at a <hi>diſtance,</hi> which neither <hi>club</hi> nor <hi>ſword</hi> can do <hi>He bends his tongue like a bow for lies, his Tongue is an Arrow ſhot out. He ſpeaks peaceably to his neigh<g ref="char:EOLhyphen"/>bor with his mouth,</hi>
+                  <note place="margin">Prov. 26.23</note> 
+                  <hi>but in heart he lays his wait.</hi> And thus <hi>the words of the Tale-bearer are as wounds.</hi>
+               </p>
+               <pb n="58" facs="tcp:121166:31"/>
+               <p>The Informer aſſaults as the <hi>Arabian</hi> fights. He loves not a cloſe combat with his enemie face to face, but lurks in ſome hole, whence he ſhoots his Arrow, that the wounded may not ſee the hand that hits him.<note place="margin">Pſ. 64.3.4.5</note> 
+                  <hi>They bend their bows to ſhoot their arrows, even bitter words, that they may ſhoot in ſecret at the perfect; ſudden<g ref="char:EOLhyphen"/>ly do they ſhoot at him and fear not. They ſay, who ſhall ſee them?</hi> This <hi>Fox</hi> deſigns what <hi>Faux</hi> did in another caſe, to blow you up in your credit and intereſt, and yet ſo as you may not know who hurts you.<note place="margin">Plutarch in vitâ <hi>Julii Caeſar.</hi>
+                  </note> He deals as cowardly <hi>Caſca</hi> did with <hi>Iulius Caeſar,</hi> that durſt not adven<g ref="char:EOLhyphen"/>ture to give him a wound, till he had ſneakingly got behind his back. There is a <hi>Biting of one another,</hi>
+                  <note place="margin">Gal. 5.13.</note> cenſured by the Apoſtle,<note place="margin">Rom. 1.30</note> and a <hi>Backbiting</hi> too. There is a <hi>Back-biting with the tongue,</hi>
+                  <note place="margin">Pſal. 15.3. Prov 25.23.</note> yea, a <hi>Backbiting tongue.</hi> It is a ſtrange phraſe. you had need, Sirs, carry <hi>Eys in your head,</hi> for the Monſter I ſpeak of carryes <hi>Teeth in his Tongue.</hi> Nay, if you knew how, your very <hi>Occiput</hi> had need be ocular, and you like <hi>Ianus, double faced,</hi> to obviate the aſſaults of the <hi>double tongued.</hi> The Informer is like <hi>Dan, A Serpent by the way,</hi>
+                  <note place="margin">Gen. 49.17</note> 
+                  <hi>an Adder in the paths,
+<pb n="59" facs="tcp:121166:31"/> that bites the horſe heels, ſo that his Rider ſhall fall backwards.</hi>
+               </p>
+               <p>When <hi>Antipater</hi> a great Commander,<note place="margin">Plutarc. in vitâ Alex.</note> being then very far off, was accuſed to <hi>Alexander; Caſsander</hi> the ſon of the ac<g ref="char:EOLhyphen"/>cuſed being then in the Court, ſaith <hi>A<g ref="char:EOLhyphen"/>lexander, Thy father is certainly guilty, elſe theſe men would never have put them<g ref="char:EOLhyphen"/>ſelves to the trouble to have come ſo far to accuſe him: Nay rather, O King,</hi> (re<g ref="char:EOLhyphen"/>plies the Son) <hi>it is manifest my father is not guilty, for had he been, theſe enemies of his would rather have accuſed him be<g ref="char:EOLhyphen"/>fore his face.</hi> I leave this ſtory to them whom it moſt concerns, being called up<g ref="char:EOLhyphen"/>on to a further proſecution of the Infor<g ref="char:EOLhyphen"/>mer at the Bar. I ſhall onely add, That honeſt <hi>Mephiboſheth</hi> might ſoon have made traiterous <hi>Ziba ſtumble</hi> in his ſtory had not himſelf (good man) been <hi>lame</hi> of his feet, and ſo under an invincible ne<g ref="char:EOLhyphen"/>ceſſity of being <hi>abſent,</hi> when <hi>accuſed.</hi> Therefore methinks ſince,<note place="margin">Qui juſtum ſtatuit, alte<g ref="char:EOLhyphen"/>râ inauditâ parte, ipſe injuſtus est.</note> moſt <hi>honeſt</hi> men have <hi>two</hi> ears, whereas the Inform<g ref="char:EOLhyphen"/>er hath but one Tongue, (though that perhaps be a double one) they ſhould make conſcience of reſerving one ear for the accuſed, (as <hi>Plutarch</hi> ſays <hi>Alexander</hi> was wont to do) when they have lent
+<pb n="60" facs="tcp:121166:32"/> the Offendor the other afore-hand.</p>
+               <p>I do further indite the ſaid Informer for <hi>burglarie</hi> and <hi>felony,</hi>
+                  <note place="margin">Detraction is ſo called becauſe it ſteals from a man, <hi>&amp;c.</hi> 
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>p <hi>Uſher.</hi>
+                  </note> for that he <hi>felo<g ref="char:EOLhyphen"/>niouſly</hi> and <hi>burglarly</hi> by <hi>force of arms</hi> a breach did make, and with a <hi>felonious in<g ref="char:EOLhyphen"/>tent</hi> did rob. ſteal and take away, ſo many <hi>good names,</hi> to the <hi>value of &amp;c.</hi>
+               </p>
+               <p>The Informer commits <hi>burglary</hi> to further his <hi>felony,</hi> he breaks through mens good-names to come at their goods, as they through <hi>Naboths</hi> to rob him of his <hi>Inheritance.</hi>
+                  <note place="margin">Luke 19.8.</note> Saith <hi>Zachaeus,</hi> when converted, <hi>If I have wronged any man by ſycophancie, I reſtore him fourfold,</hi> that is, by falſe Accuſation in ſuch caſe where part of the <hi>pecuniary penalty</hi> did go to the Informer. Here's a punctual <hi>reſtitution,</hi> and beſides the <hi>fift part</hi> required by the Law to be <hi>added to the principal,</hi>
+                  <note place="margin">Lev. 6.2, 5.</note> here's a fair ſurpluſage, foraſmuch as the parties injured did not onely ſuffer in their goods but good names. And ſurely could we but ſee our Informers reform, we ſhould have much travelling in this <hi>unbeaten path of Reſtitution,</hi> the neceſſary conco<g ref="char:EOLhyphen"/>mitant (where it may be) of true Repen<g ref="char:EOLhyphen"/>tance, with a <hi>non-obſtante</hi> to that ſaying, <hi>'Tis a ſhame to ſteal, but a greater ſhame to bring home.</hi>
+               </p>
+               <pb n="61" facs="tcp:121166:32"/>
+               <p>The ſpoyling of ones good name is by ſo much a greater Robbery than the ra<g ref="char:EOLhyphen"/>pine of ones Goods, by how much <hi>A good name is rather to be choſen then great Riches,</hi>
+                  <note place="margin">Prov. 22.2.</note> 
+                  <hi>and loving favor rather then ſil<g ref="char:EOLhyphen"/>ver and gold.</hi> A man had better be plun<g ref="char:EOLhyphen"/>dered of his <hi>Coin</hi> then <hi>Credit,</hi> and of his <hi>Goods</hi> then <hi>Good eſteem.</hi> Credit hath a magnetick virture in it to draw lively<g ref="char:EOLhyphen"/>hood and imployment after it; but let the good name be broken,<note place="margin">Actum eſt de homine cùm actum eſt de nomi<g ref="char:EOLhyphen"/>ne.</note> and then good parts are like a curiouſly wrought Lock with a <hi>broken ſpring,</hi> that may have ma<g ref="char:EOLhyphen"/>ny lookers on, but few buyers. And thus as we ſay (in ſome caſes) ſome rob many in one, when the Informer <hi>whets his tongue like a ſword</hi> to ſmite the Shep<g ref="char:EOLhyphen"/>heard, the poor Sheep are ſcattered,<note place="margin">Pſal. 74.3.</note> and thus he <hi>deſtroys the Dam with the Young.</hi>
+               </p>
+               <p>Further,<note place="margin">Deut.</note> he doth not onely <hi>wrong</hi> by <hi>Robbery,</hi> but <hi>robs</hi> of the <hi>means</hi> of <hi>righting</hi> the wrong. He <hi>defameth</hi> whom he <hi>in<g ref="char:EOLhyphen"/>jureth,</hi> that their own denyal may not be taken; and if he can, makes their <hi>friends partyes,</hi> that they may not be <hi>witneſses.</hi> Thus treacherous <hi>Zibah</hi> took away <hi>Me<g ref="char:EOLhyphen"/>phiboſheths Aſſes,</hi>
+                  <note place="margin">2 Sam. 19.26 27.</note> that he might not ride to clear himſelf to the King, whom he knew to be ſo <hi>lame,</hi> that he could not
+<pb n="62" facs="tcp:121166:33"/> go on his own <hi>feet.</hi> Thus High-way-men will turn away your <hi>Horſe,</hi> as well as take away your <hi>Purſe,</hi> to diſable you to purſue the Thieves, or however to get a ſufficient ſtart of you.</p>
+               <p>The Informer hath learnt of <hi>Machia<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>il</hi> what <hi>Zibah</hi> found true before <hi>Ma<g ref="char:EOLhyphen"/>chia<g ref="char:EOLhyphen"/>vil</hi> was born.<note place="margin">Calumnia<g ref="char:EOLhyphen"/>re audacter, aliquid ad<g ref="char:EOLhyphen"/>haerebit.</note> 
+                  <hi>Calumnia<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> boldly and ſomething will ſtick,</hi> as <hi>
+                     <g ref="char:V">Ʋ</g>enim</hi> will, when the <hi>Vipers teeth</hi> are pluckt out (ſo <hi>receptive</hi> are our <hi>evil</hi> hearts of any evil impreſſion, and ſo <hi>retentive,</hi> yea, <hi>tena<g ref="char:EOLhyphen"/>cious</hi> of what is ſo recieved,) for when <hi>Mephiboſheth,</hi> as ſoon as he could, had brought the King, not onely his moſt cordial and clear expreſſions to blow off, but alſo his <hi>overgrown hair,</hi>
+                  <note place="margin">2. Sam. 19.24.</note> to bruſh off the falſe ſuggeſtions of a flattering <hi>Zibah,</hi> making proof good enough that himſelf had <hi>remembred</hi> David <hi>and all his trouble,</hi> yet the King ſo forgat the kindneſs of <hi>Ie<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap>an,</hi> to ſay nothing of the juſtice of a Prince,<note place="margin">Ver. 29.</note> that ſtill <hi>Zibah</hi> muſt have <hi>half</hi> his Maſters Eſtate, for <hi>telling a Lie</hi> of him ſo well affected-ly.</p>
+               <p>I might add, that as the <hi>Thief in the Candle,</hi> ſo is the <hi>Tale-bearer</hi> to <hi>Time,</hi> his <hi>own</hi> and <hi>others;</hi> ſtealing that away, that is ineſtimably <hi>precious.</hi> You know
+<pb n="63" facs="tcp:121166:33"/> what a Brand of Infamy was ſet on the <hi>Athenians,</hi>
+                  <note place="margin">Acts 17.21.</note> 
+                  <hi>that ſpent their time in nothing elſe, but to tell or hear ſome new thing.</hi>
+               </p>
+               <p>Laſtly, I preſent the Informer for <hi>Murther,</hi> (which here in <hi>Ireland</hi> is <hi>Treaſon</hi>) for that he <hi>contrary to the crown and dignitie of the ſoverain Lord</hi> of life, <hi>the fear of God before his eyes not having, of malice forethought</hi> did kill and murther. Thus <hi>Moſes</hi> preſents, who is the <hi>fore-man</hi> of the <hi>Grand-jury;</hi>
+                  <note place="margin">Lev. 19.16.</note> Thou <hi>ſhalt not go up and down as a Tale-bearer among thy people, neither ſhalt thou ſtand againſt the bloud of thy neighbor, I am the Lord;</hi> as who would ſay, the Tale-bearer is not onely guilty of the bloud of his neighbor, but alſo of Treaſon and In<g ref="char:EOLhyphen"/>dignity againſt the Lord. And thus <hi>E<g ref="char:EOLhyphen"/>zekiel</hi> after him, another <hi>good man and true,</hi> and with him all the reſt of the Pro<g ref="char:EOLhyphen"/>phets <hi>are agreed in their verdict:</hi>
+                  <note place="margin">Ezek. 22.9.</note> 
+                  <hi>In thee are the men that carry tales to ſhed bloud.</hi> Yea, the <hi>Coroner</hi> himſelf who hath made the <hi>Inqueſt,</hi> and probed the depth of the wound, ſaith,<note place="margin">Prov. 26.22</note> 
+                  <hi>That the words of the Tale-bearer are as wounds, they go down to the innermoſt parts of the belly.</hi> They <hi>ſink</hi> not onely into the Hearer, working an
+<pb n="64" facs="tcp:121166:34"/> inward, if not incurable <hi>Rancor;</hi> but eſpecially into the innocent ſufferer, <hi>So<g ref="char:EOLhyphen"/>lomon</hi> ſpeaks of thoſe that <hi>are afflicted by a lying Tongue,</hi>
+                  <note place="margin">Prov. 26.28</note> and adds, that a <hi>flater<g ref="char:EOLhyphen"/>ing mouth worketh ruin.</hi> Such a Tongue the Greek Verſion ſometimes renders, (as <hi>Ainſworth</hi> obſerves,) a <hi>double tongue:</hi> but the Hebrew Doctors phraſe is a <hi>three<g ref="char:EOLhyphen"/>fold tongue,</hi> (which methinks the Poets ſeem to have reſpect unto, in their Ficti<g ref="char:EOLhyphen"/>on of <hi>Cerberus,</hi> that <hi>triple tong'd</hi> Hell-hound. <hi>Maimon,</hi> gives the Reaſons, <hi>Our wiſe men have ſaid,</hi> ſaith he, <hi>that the e<g ref="char:EOLhyphen"/>vil tongue killeth three, the Speaker, the Receiver, and him that is spoken againſt.</hi>
+               </p>
+               <p>
+                  <note place="margin">Pſal. 52.2.</note>
+                  <hi>David</hi> compares <hi>Doegs</hi> Tongue to a <hi>ſharp Raſor working deceiptfully:</hi> a faith<g ref="char:EOLhyphen"/>ful Reprovers Tongue is like a ſharp Ra<g ref="char:EOLhyphen"/>ſor too, but <hi>working honestly,</hi> it makes the patient endurer thereof, more <hi>ſmooth</hi> and <hi>trim.</hi> But the flanderers Tongue is a ſharp Raſor, a cut-throat weapon, when it <hi>works deceiptfully.</hi>
+               </p>
+               <p>Slander, too oft takes away the <hi>Life,</hi> as <hi>Naboths,</hi> by color of Law; and a bet<g ref="char:EOLhyphen"/>ter mans then his, <hi>whoſe Judgment in his humiliation was taken away;</hi>
+                  <note place="margin">Acts 8.33</note> of whom the Prophet ſays, that he was not onely as a <hi>Lamb,</hi> at the <hi>ſlaughtering,</hi> but as a
+<pb n="65" facs="tcp:121166:34"/> 
+                  <hi>Sheep</hi> at the <hi>Shearing,</hi>
+                  <note place="margin">Iſaiah 53 7.</note> They firſt rob him what they can of his <hi>Fleece of Innocence,</hi> and then Butcher him.</p>
+               <p>Otherwiſe it deſtroys Life by working <hi>Sorrow</hi> in the ſufferer, that <hi>works Death.</hi> Even <hi>Davia</hi> himſelf complains, that <hi>he was a dead man, and like a broken veſſel;</hi>
+                  <note place="margin">Pſal. 31 12.13.</note> 
+                  <hi>For,</hi> ſaith he, <hi>I have heard the ſlander of many.</hi> As ſhe that <hi>lives in pleaſure,</hi> ſo he that <hi>lives in diſgrace,</hi> is <hi>even dead whilſt he liveth</hi> for what is the <hi>Life</hi> of our <hi>Life</hi> next under the <hi>favor</hi> of <hi>God,</hi> but the <hi>fa<g ref="char:EOLhyphen"/>vor</hi> of thoſe that are <hi>good?</hi> and next our acceptance with the Father, but to be <hi>accepted,</hi> as was <hi>Mordecai's</hi> happy hap,<note place="margin">Eſter 10 3.</note> 
+                  <hi>with the multitude of our Brethren.</hi>
+               </p>
+               <p>Or at leaſt, the ſlandering tongue ſtabs that to the heart, which ſhould <hi>out live</hi> our Life, and is in that reſpect <hi>dearer</hi> then it, to wit, the <hi>Name of the righteous, which ſhould be had in everlasting remem<g ref="char:EOLhyphen"/>brance. The Name of the righteous is bleſsed,</hi>
+                  <note place="margin">Prov. 10.7.</note> 
+                  <hi>but the Memorial of the wicked ſhall rot.</hi> It is this bleſſed thing, that the putrid Paraſite lies corroding, like ſome <hi>Worms</hi> that will be eating <hi>holes</hi> in the <hi>foundeſt</hi> Timber, as if they envyed its more <hi>durable</hi> ſubſtance ſhould out-laſt their own. <hi>Mine Enemies</hi> ſaith <hi>David,
+<pb n="66" facs="tcp:121166:35"/> speak evil of me,</hi>
+                  <note place="margin">Pſalm 41.5</note> 
+                  <hi>when ſhall he die, and his Name periſh?</hi>
+               </p>
+               <p>
+                  <hi>Ambition</hi> we know, could much more tempt the more generous <hi>Heathen,</hi> then ſordid <hi>Avarice,</hi> who would loſe their <hi>Life</hi> to ſave their <hi>Honour.</hi>
+                  <note place="margin">Se the Mar. Iſaia. 63 19 Zach. 10.12</note> And how much dearer ſhould a Chriſtians good Name be to him, inaſmuch as <hi>the Name of the Lord is called upon him,</hi> and he ſaid <hi>to walk up and down in it?</hi> So that, whoſoever ſlandereth his <hi>walking,</hi> and aſſaſſinates his Credit, adds <hi>Treaſon</hi> a<g ref="char:EOLhyphen"/>gainſt God, to his murthering of the juſt; whereof the firſt is the worſt. He that complains of the <hi>ſlander of many,</hi>
+                  <note place="margin">Pſal. 31.13 Pſalm 85.50 51.</note> on purpoſe <hi>deviſed to take away his life,</hi> was yet moſt deeply wounded at this, ſaith he, <hi>Remember O Lord, the reproach of thy ſervants,</hi>
+                  <note place="margin">Ezek. 29.9. Hebr.</note> 
+                  <hi>wherewith thine Ene<g ref="char:EOLhyphen"/>myes have reproached Jehovah, wherewith they have reproached the footſteps of thine anointed.</hi> So then the <hi>Men of ſlanders,</hi> are the Men <hi>of blood,</hi> and theirs are the <hi>bloody addreſſes,</hi> who addreſs themſelves to accuſe the Innocent. Now that this Treaſonable murthering is of <hi>malice fore<g ref="char:EOLhyphen"/>thought,</hi> the Wiſe man gives evidence where he ſaith,<note place="margin">Prov. 26.28</note> 
+                  <hi>A lying tongue hateth thoſe that are afflicted by it,</hi> which Text
+<pb n="67" facs="tcp:121166:35"/> with ſome experience may in time teach you to conſtrue that paradox. That <hi>they that do the injury are moſt hard to forgive.</hi> And that it is for that <hi>they have not the fear of God before their eys, David</hi> proves ſaying of the <hi>Ziphims,</hi>
+                  <note place="margin">Pſal. 54.3.</note> 
+                  <hi>Sauls</hi> ſneaking Informers, <hi>Strangers are riſen up againſt me, that ſeek after my ſoul, they have not ſet God before them,</hi> Selah.</p>
+               <p>I have done with the Indictment: on<g ref="char:EOLhyphen"/>ly if you ask after all <hi>did he fly for the ſame?</hi> Let the Court hear the witneſs; the Pſalmiſt firſt ſaith,<note place="margin">Pſ. 10.7 8 9</note> 
+                  <hi>under his tongue is miſchief and vanity,</hi> and then that <hi>He ſits in the lurking places of the Villages, ſecretly, as a Lion in his Den.</hi> And again, <hi>They wreſt my words,</hi>
+                  <note place="margin">Pſ 140.11. Or, evil ſhall hunt him to over<g ref="char:EOLhyphen"/>throw him.</note> 
+                  <hi>their thoughts are againſt me for evil, They hide themſelves.</hi> And therefore he imprecates, <hi>Let not an evil ſpeaker be eſtabliſhed in the Earth, but let him be hunted to his overthrow.</hi> You may ſee by the worryed Lambs and Sheep, where the Wolf or the Fox hath been, which yet without <hi>hunting</hi> cannot be found. And now having got him up<g ref="char:EOLhyphen"/>on a <hi>freſh ſent,</hi> Methinks, beſides all that hath been ſpoken, the Informer ſmells ſo ſtrong of the MALIGNANT, that it were eaſy to proſecute him from <hi>Seſſions</hi>
+                  <pb n="68" facs="tcp:121166:36"/> to <hi>Councils,</hi> and from <hi>Courts</hi> to <hi>Com<g ref="char:EOLhyphen"/>mittees,</hi> and to make the charge good from that of the Apoſtle,<note place="margin">Rom. 1.29.</note> where he makes Malignancy the very Root of Backbiters and Whiſperers, <hi>Full of Ma<g ref="char:EOLhyphen"/>lignity, Backbiters, Whiſperers.</hi>
+               </p>
+               <p>And thus, (what ever fair umbrage be put on to the contrary.) having proved him a <hi>Delinquent</hi> againſt the <hi>Common<g ref="char:EOLhyphen"/>wealth,</hi> We are in the next place to bring him to <hi>condign Pumiſhment.</hi>
+               </p>
+            </div>
+            <div n="5" type="chapter">
+               <head>CHAP. V. <hi>The</hi> INFORMERS <hi>Puniſhment.</hi>
+               </head>
+               <p>ANd now to begin with him where we left him, <hi>(viz)</hi> in a ſtate of <hi>De<g ref="char:EOLhyphen"/>linquency</hi> againſt the <hi>State:</hi> He is in the firſt place lyable to <hi>Sequeſtration</hi> (from the favor I mean, of all <hi>great</hi> and <hi>good</hi> men.) Satan the <hi>Arch-Malignant</hi> was thus ſentenced of old at a Council in Heaven <hi>The Dragon was caſt out thi<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t old Serpent,</hi>
+                  <note place="margin">Revel. 12.9</note> called Accuſer, and enemy, (for ſo <hi>Devil</hi> and <hi>Satan</hi> ſignify,) and ſo it is explained in the following Verſe where he is called the <hi>Accuſer of our Brethren</hi>
+                  <note place="margin">V. 10.</note>
+                  <pb n="69" facs="tcp:121166:36"/> 
+                  <hi>that accuſed them night and day.</hi> And for my part, I ſee no reaſon why this <hi>Seque<g ref="char:EOLhyphen"/>ſtration</hi> ſhould be taken off of his <hi>Chil<g ref="char:EOLhyphen"/>dren,</hi> till they give ſome better proof of their true Repentance, and good affecti<g ref="char:EOLhyphen"/>on to the Commonwealth: And were but as round a courſe taken in this as in other caſes there would not be ſo many <hi>Malignants</hi> (in Scripture ſenſe left ſo able to miſchiev the Republique as there are. <hi>The North wind</hi> ſaith <hi>Solomon,</hi>
+                  <note place="margin">Prov. 25 23</note> 
+                  <hi>drives away Rain, ſo doth an angry coun<g ref="char:EOLhyphen"/>tenance, a back biting tongue:</hi> and ſaith <hi>David</hi> before him,<note place="margin">Pſal. 101.5.</note> 
+                  <hi>Who ſo privily ſlan<g ref="char:EOLhyphen"/>dereth his Neighbour him will I out off,</hi> that is, (to take it in <hi>mitiori ſenſu</hi>) from mine audience, and favorable acceptance, for ſo he ſeems to explain himſelf; <hi>He that worketh deceipt ſhall not dwell within my houſe,</hi>
+                  <note place="margin">Verſe 7.</note> 
+                  <hi>he that telleth lyes ſhall not tarry in my ſight.</hi> So that by both their votes, what you may ſee ſometimes written o<g ref="char:EOLhyphen"/>ver private <hi>Tables,</hi> would be moſt ne<g ref="char:EOLhyphen"/>ceſſarily inſcribed over <hi>Council-Boards,</hi>
+                  <q>
+                     <l>Quiſquis amat dictis abſentum rodere vitam,<note place="margin">Auguſtinia<g ref="char:EOLhyphen"/>num diſti<g ref="char:EOLhyphen"/>chon.</note>
+                     </l>
+                     <l>Hanc menſam vetitam noverit eſſe ſibi.</l>
+                  </q>
+               </p>
+               <p>Which I thus Engliſh,
+<pb n="70" facs="tcp:121166:37"/> 
+                  <hi>Who loves the</hi> Abſent <hi>to tradues, may he</hi> Preſent <hi>as Gueſt at this Board never be.</hi>
+               </p>
+               <p>I have touched on that part of this De<g ref="char:EOLhyphen"/>linquents Puniſhment, that may in part diſable him to miſchieve others; and 'tis like he will think this to be Puniſh<g ref="char:EOLhyphen"/>ment great enough.<note place="margin">Maledico quoniamma<g ref="char:EOLhyphen"/>lefacere, cum velim, non poſsum.</note> For <hi>Zoilus</hi> being asked <hi>why he ſpoke miſchievouſly of all Men?</hi> Anſwered, <hi>becauſe he could not do them miſchief</hi> when he would; ſo that pull but out his <hi>Sting,</hi> and you ſpoil his <hi>ſweet Trade.</hi>
+               </p>
+               <p>But if any ſhall think neceſſary to in<g ref="char:EOLhyphen"/>flict further penalty, yet ſo as to keep within compaſs of Law, I ſhall not here turn you over to the <hi>Cannoniſts,</hi> much leſs to <hi>Ethnick Legiſlators,</hi> (for as a Re<g ref="char:EOLhyphen"/>verend Author obſerves,<note place="margin">
+                     <hi>Bp.</hi> Hall in his caſes of conſcience. Dec. 2. caſ. 7.</note> 
+                  <hi>Delators &amp; In<g ref="char:EOLhyphen"/>formers have in all happy &amp; well Govern<g ref="char:EOLhyphen"/>ed States been ever held an odious &amp; Infa<g ref="char:EOLhyphen"/>mous kind of cattel: A</hi> Tiberius, <hi>ſaith he, &amp; a</hi> Domitian <hi>might giv both countenance &amp; rewards, as being meet factors for their tyranny: but a</hi> Veſpatian <hi>&amp;</hi> Titus, <hi>an</hi> An<g ref="char:EOLhyphen"/>toninus <hi>pius, &amp;</hi> Macrinus, <hi>or whatever o<g ref="char:EOLhyphen"/>ther Princes carryed a tender care to the Peace and wellfare of their Subjects, whipt them in the Amphitheater, abandoned them
+<pb n="71" facs="tcp:121166:37"/> out of their Dominions as pernicious and intollerable.</hi>) Neither ſhall I direct you to ſteer your courſe by his Compaſs, who cauſed ſome Accuſers, (who were found out to have wilfully falſifyed.) to be <hi>hung up by the Tongue:</hi> though it were to be wiſhed, that ſuch were (if not ty<g ref="char:EOLhyphen"/>ed by their Tongue; yet) ſomewhat more <hi>Tongue tyed,</hi>
+                  <note place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </note> or to ſpeak with the Apoſtle,<note place="margin">Iam. 1.26.</note> (and then I am ſure I ſpeak ſafe<g ref="char:EOLhyphen"/>ly,) that they would put a <hi>bridle</hi> on their own Tongue: But I ſhall lead you to Gods own Law, and that is,<note place="margin">Deut. 19.16.18.19 20.21.</note> 
+                  <hi>If a falſe witneſs riſe up againſt any man to teſtify againſt him that which is wrong: The Iudges ſhall make diligent inquiſition, and behold, if the witneſs be a falſe witneſs, and hath testifyed falſly againſt his Bro<g ref="char:EOLhyphen"/>ther, then ſhall ye do unto him, as he had thought to do unto his Brother, ſo ſhalt thou put the evil away from among you. And they that remain, ſhall hear and fear, and ſhall henceforth commit no more any ſuch evil amongst you: And thine eye ſhall not pity, but Life ſhall go for Life, Eye for Eye, Hand for Hand, Foot for Foot.</hi> Thine eye ſhall not pity: a ſevere Clauſe, ſay the Law be <hi>judicial</hi> as to that <hi>time</hi> and <hi>people.</hi> If yet there be any pari<g ref="char:EOLhyphen"/>ty
+<pb n="72" facs="tcp:121166:38"/> of Reaſon that may carry it further, if duly circumſtantiated, which I leave to their prudence and juſtice whom it moſt concerns to conſider it.</p>
+               <p>
+                  <note place="margin">Dan. 6.24.</note>'Twas <hi>lex talionis</hi> too, that <hi>Darius</hi> ex<g ref="char:EOLhyphen"/>ecuted on <hi>Daniels Acouſers,</hi> charging him <hi>maliciouſly</hi> though not <hi>falſly</hi> of the breach of the Decree, that they had ſub<g ref="char:EOLhyphen"/>tilly contrived to flatter the King and in trap him; which God himſelf as afore<g ref="char:EOLhyphen"/>ſaid took care to ſee executed, <hi>opening the Lyons mouths</hi> upon the Accuſers, which were ſtopt whilſt the Accuſed was <hi>in the den.</hi> 'Tis ſaid of ſuch, That <hi>ſwords are in their lips,</hi> whereby they cut others; and the Pſalmiſt threatens ſuch,<note place="margin">Pſal. 12.2.3.</note> that God will <hi>cut off their lips:</hi> and as their work is to divide others by their tongues: So the Pſalmiſt imprecates that God <hi>would divide their tongues.</hi>
+                  <note place="margin">Pſal. 55.9.</note> And perhaps if men <hi>forbear to puniſh</hi> in ſuch caſes, they may come to be <hi>puniſhed by thoſe</hi> that <hi>they forbear.</hi> The fiery met<g ref="char:EOLhyphen"/>tled <hi>ill-mouth'd</hi> horſe will not much ſpare his Rider, (let him get but his bit be<g ref="char:EOLhyphen"/>tween his teeth) who perhaps loved too well to ſee him throw up his heels at all others whom he meets by the way.<note place="margin">Jam. 3.7.8.</note> And the Apoſtle ſaith, an untamed tongue is
+<pb n="73" facs="tcp:121166:38"/> a much more <hi>
+                     <gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>rnly evil</hi> than the <hi>wildeſt beaſt.</hi> Vipers will not ſpare, when time ſerves, the bowels that bred them.</p>
+               <p>But ſay, the <hi>Zibah</hi> be for from any puniſhment from men, that he ſeem to get by his Trade: yet <hi>Solomon</hi> hath aſ<g ref="char:EOLhyphen"/>ſured us more than once in the ſame Chapter,<note place="margin">Pro. 19.5.9</note> that <hi>the falſe witneſs ſhall not be unpuniſhed, and he that speaketh lies ſhall not eſcape.</hi> Dreadful are the imprecati<g ref="char:EOLhyphen"/>ons that lie at the ſlanderers and back<g ref="char:EOLhyphen"/>biters door (as <hi>ſin</hi> at <hi>Cains</hi>) up and down in the Pſalms, (how conſolatory ſoever that portion of Scripture be to the righ<g ref="char:EOLhyphen"/>tous, though ſufferers) ſome whereof I ſhall recite, not that it is a <hi>delight</hi> but a <hi>duty</hi> to tell ſuch men of then danger:<note place="margin">Pſal. 109.2, 6.7, 8.17, 18, 19, 20.</note> 
+                  <hi>They have spoken againſt me with dying tongue,</hi> and then it follows: <hi>let Satan ſtand at ſuch a ones right hand: when he ſhall be judged let him be condemned, and let another take his Office. As he loved curſing ſo let it come unto him: as he de<g ref="char:EOLhyphen"/>lighted not in bleſſing, ſo let it be far from him. Let curſing come into his bowels like water, and like oyl into his bones,</hi> &amp;c. <hi>Let this be the reward of mine adverſaries from the Lord,</hi>
+                  <note place="margin">Acts 1.2<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note> 
+                  <hi>and of them that speak evil againſt my ſoul.</hi> A Pſalm applied to
+<pb n="74" facs="tcp:121166:39"/> 
+                  <hi>Judas</hi> the Informer. And as dreadful the comminations,<note place="margin">Pſalm 64.3, 4, 7.</note> 
+                  <hi>They bend their bows to ſhoot their arrows, even bitter words,</hi> &amp;c. <hi>But God ſhall ſhoot at them with an arrow, ſuddenly ſhall they be wounded</hi> So <hi>David</hi> againſt <hi>Doeg.</hi>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 52.1.4.5</note> 
+                  <hi>Why boaſteſt thou thy ſelf in miſchief, O mighty mar?</hi> &amp;c. <hi>Thou loveſt all devouring words: God ſhall likewiſe deſtroy thee for ever, he ſhall take thee a<g ref="char:EOLhyphen"/>way,</hi> &amp;c. And elſwhere, <hi>Shall I not viſit for theſe things?</hi> ſaith the Lord, (even theſe that I have been ſpeak ng of, as is manifeſt in the Text) <hi>and ſhall not my ſoul be avenged on ſuch a nation as this?</hi>
+                  <note place="margin">Jer. 9. from 3. to the 9. Verſe.</note> &amp;c. I might tranſcribe much Scripture of like import. But more may but more harden them that fear not theſe; for accompliſhment of all which, if others ſhould, themſelves will not fail to be their own executioners; for <hi>David</hi> ſaith,<note place="margin">Pſal. 64.7.</note> 
+                  <hi>They ſhall make their own tongue fall upon themſelves:</hi> as he <hi>that diggeth a pit ſhall fall into it,</hi> and he <hi>that rolleth a ſtone, it ſhall return upon him.</hi> So we read of ſome whoſe <hi>throats are open ſe<g ref="char:EOLhyphen"/>pulchres</hi> for others,<note place="margin">Pro. 26.27.</note> and yet elſwhere, that theſe very mens <hi>lips will ſwallow up themſelves.</hi>
+                  <note place="margin">Eccl. 10.12. compared with Prov. 10.14.</note> Thus he that with <hi>Judas</hi> hath been an <hi>Informer</hi> againſt the <hi>Inno<g ref="char:EOLhyphen"/>cent,</hi>
+                  <pb n="75" facs="tcp:121166:39"/> comes at laſt with him too, to be <hi>felo de ſe.</hi> The Lord of his grace give him a timely and better repentance than <hi>Judas's</hi> was, that he may never become a firebrand in <hi>Hell,</hi> as he hath been on <hi>Earth.</hi> This hath been and ſhall be my prayer to God for him, and is the end, the Lord knows, of this dealing ſo ſmart<g ref="char:EOLhyphen"/>ly with him. And ſo Informer, Amend and Fare-well.</p>
+            </div>
+            <div type="postscript">
+               <head>
+                  <hi>A POSTSCRIPT.</hi> To the Innocent under the tongue-laſt of the Malevolent.</head>
+               <p>CHriſtian Brother, (ſo I <hi>call</hi> thee, however others <hi>miſcall</hi> thee) won<g ref="char:EOLhyphen"/>der not that thine uttermoſt endeavors both in way of <hi>Integrity</hi> to God, and <hi>Inoffenſiveneſs</hi> to man, cannot yet ſhield thee from the darts caſt by malevolent mouths. This was <hi>Pauls exercize,</hi>
+                  <note place="margin">Acts 24.16</note> who was nevertheleſs <hi>defamed,</hi> and <hi>made as the filth of the world.</hi>
+                  <note place="margin">1 Cor. 4.13. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> Yea the <hi>dear Di<g ref="char:EOLhyphen"/>ſciple,</hi> who was all as it were made up of love complains of a <hi>Diotrophes,</hi> who did <hi>prate againſt him with malitious words.</hi>
+                  <note place="margin">3 Ep. Joh. 10</note>
+                  <pb n="76" facs="tcp:121166:40"/> Remember who hath ſaid,<note place="margin">Luk. 6.22.</note> 
+                  <hi>Bleſſed are ye when men ſhall hate you, and when they ſhall ſeparate you from their company, and ſhall reproach you, and ſhall caſt out your name as evil, for the ſon of mans ſake;</hi> but be ſure that it be for <hi>his ſake.</hi>
+                  <note place="margin">Verſe 26.</note> 
+                  <hi>But wo be to you when all men ſhall speak well of you. If you are reproached for the name of Chriſt happy are you,</hi>
+                  <note place="margin">1 Pet. 4.14 15.16.</note> &amp;c. <hi>but let none of you ſuffer as an evil doer, or as a buſie-body in other mens matters; yet if any ſuffer as a Chriſtian, let him not be aſha<g ref="char:EOLhyphen"/>med, but glorifie God on this behalf.</hi> But <hi>give none occaſion to the Adverſary to ſpeak reproachfully,</hi>
+                  <note place="margin">1 Tim. 5.14. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>
+                  </note> the word is, to him that is <hi>ſet againſt you;</hi> he that is ſet a<g ref="char:EOLhyphen"/>gainſt you will be ſure to <hi>find occaſions,</hi> but be you ſure to <hi>give none.</hi> The <hi>Ermin</hi> of Innocencie is a Robe worth the beſt mans wearing, though it be <hi>spotted</hi> with black <hi>obloquies,</hi> and <hi>poudered</hi> with <hi>asper<g ref="char:EOLhyphen"/>ſions.</hi> And now, poor friend, finding thee like <hi>Job</hi> on a <hi>dunghill</hi> of diſgrace, though I come to <hi>counſel,</hi> yet I cannot but firſt ſit down and <hi>condole</hi> thee; for I queſtion whether any <hi>wounds</hi> ſave thoſe of <hi>Conſcience</hi> may reaſonably go ſo deep in an apprehenſive good man, as thoſe on his <hi>good name,</hi> in the ſufferings where<g ref="char:EOLhyphen"/>of
+<pb n="77" facs="tcp:121166:40"/> 
+                  <hi>Gods name</hi> ſuffers with him. There are <hi>three perſons</hi> that have been the ſub<g ref="char:EOLhyphen"/>jects of the ſoreſt afflictions that were ever ſuſtained by men, <hi>Joſeph, Job, Jeſus:</hi>
+                  <note place="margin">Amos 6.6.</note> 
+                  <note place="margin">James 5.11.</note> the <hi>afflictions</hi> of the firſt, the <hi>patience</hi> of the ſecond are grown to a Proverb,<note place="margin">Iſaiah 53 3.</note> and the third is ſtiled <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <hi>the man of ſorrows.</hi> 'Tis ſaid of the <hi>firſt,</hi>
+                  <note place="margin">Gen. 49.23.</note> that <hi>the Archers ſorely grieved him, ſhot at him and hated him,</hi> and the archeſt of thoſe Archers was <hi>Potiphers wife,</hi>
+                  <note place="margin">Ge. 39.7.14</note> who devil<g ref="char:EOLhyphen"/>iſhly firſt tempts him, and then accuſeth him that he forcibly <hi>attempted,</hi> what he could not be <hi>tempted</hi> to by all the force of her flatteries and impudent importu<g ref="char:EOLhyphen"/>nities. The <hi>ſecond</hi> had his children, his eſtate, and his health all taken away, one<g ref="char:EOLhyphen"/>ly his <hi>wife</hi> is left to be his <hi>Tempter,</hi> and his friends to become his <hi>Traducers</hi> to lay the hypocrite at his door and 'tis evi<g ref="char:EOLhyphen"/>dent in his ſtory, that their hard words went nearer him than all the hardſhip before; and therefore he complains, <hi>Ye overwhelm the fatherleſs, and dig a pit for your friend.</hi> And as for the <hi>third,</hi>
+                  <note place="margin">Job. 6.27.</note> he complains by the Pſalmographer of the <hi>reproach of men,</hi> and that <hi>all they that ſee him ſhoot out the lip at him.</hi>
+                  <note place="margin">Pſal. 22.6.</note> And the A<g ref="char:EOLhyphen"/>poſtle reckons it no ſmall point of his
+<pb n="78" facs="tcp:121166:41"/> paſſion, that <hi>he endured the contradiction of ſinners againſt himſelf.</hi>
+                  <note place="margin">Hebr. 12.3.</note> And therefore Chriſt reckons his <hi>reproach</hi> with his <hi>gall,</hi> and complains that it <hi>even broke his heart.</hi>
+                  <note place="margin">Pſ. 69.20.21</note> And therefore I cannot blame thee to lay thy ſufferings in this kind to heart. But yet look higher than the <hi>tongues of men,</hi> even to the <hi>hand of God,</hi> who can <hi>tongue-tie</hi> if he pleaſeth every <hi>dog in E<g ref="char:EOLhyphen"/>gypt,</hi>
+                  <note place="margin">Exod. 11.7.</note> that they <hi>bark not</hi> at an <hi>Iſraelite. Let him curſe</hi> (ſaith <hi>David</hi> of <hi>Shimei) for the Lord hath ſaid,</hi>
+                  <note place="margin">1 Sam. 16.10</note> 
+                  <hi>Curſe David.</hi> Not that <hi>David</hi> juſtified him, but God, that juſtly ſuffered him unjuſtly ſo to puniſh <hi>Davids</hi> ſin. And if we be obſervant, we may not onely ſee Gods <hi>ſeverity,</hi> but his <hi>goodneſs</hi> in the permiſſion, nay com<g ref="char:EOLhyphen"/>miſſioning of evil tongues againſt us, <hi>It may be</hi> (ſaith <hi>David) the Lord will re<g ref="char:EOLhyphen"/>quite me good for his curſing this day.</hi>
+                  <note place="margin">Verſe 12.</note> And therefore conſider,</p>
+               <p n="1">1. Whether thou thy ſelf have not ſometime <hi>ſinned</hi> againſt others in like kind wherein thou now <hi>ſuffereſt</hi> from others.<note place="margin">Ec. 7.21.22 As the word <hi>maledico</hi> ſignifyes to curſe or to ſpeak evil of.</note> 
+                  <hi>For oftentimes alſo thine own heart knoweth that thou thy ſelf haſt like<g ref="char:EOLhyphen"/>wiſe curſed or ſpoken evil of others.</hi>
+               </p>
+               <pb n="79" facs="tcp:121166:41"/>
+               <p n="2">2. Whether there be not ſome guilt <hi>unknown to others</hi> or <hi>unthought of by thy ſelf,</hi> that God ſignally aims at in thus pu<g ref="char:EOLhyphen"/>niſhing thee by others. A perſon unjuſt<g ref="char:EOLhyphen"/>ly condemned (as was thought) for fi<g ref="char:EOLhyphen"/>ring an houſe, to be hanged in a field; perſiſted to deny that fact, but confeſſed of himſelf that he had deſerved to dy by the Laws both of God and man, having ſecretly committed in that very field beſtiality not fit to be named. Eſpeci<g ref="char:EOLhyphen"/>ally if <hi>Good men</hi> ſpeak evil of thee thou haſt the more cauſe to ſuſpect that all is not well with thee. When <hi>Smicythus</hi> had accuſed <hi>Nicanor,</hi> and urged that he ſhould be puniſhed for ſpeaking evil of King <hi>Philip: Not ſo,</hi> ſaid <hi>Philip,</hi>
+                  <note place="margin">Plut. Phil. Ma<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> 
+                  <hi>for</hi> Nicanor <hi>is one of the honeſtest men in Ma<g ref="char:EOLhyphen"/>cedon, and therefore it is more fit to en<g ref="char:EOLhyphen"/>quire whether the fault be not in us.</hi> And thus though reproaches be like the wa<g ref="char:EOLhyphen"/>ter of the <hi>Severn</hi> thick and <hi>muddy,</hi> yet if they have, like that, but a <hi>ſcouring</hi> qua<g ref="char:EOLhyphen"/>lity, ſo that we can but improve <hi>un<g ref="char:EOLhyphen"/>juſt accuſations</hi> as <hi>juſt cautions,</hi> we ſhall have cauſe to bleſs God for them; as the ſaid <hi>Philip</hi> would reckon himſelf be<g ref="char:EOLhyphen"/>holding to <hi>the Counſellors of Athens,</hi> for that they <hi>by ſpeaking evil of him, were
+<pb n="80" facs="tcp:121166:42"/> a cauſe to make him the more honeſt man, that by word and deed he might prove them liers;</hi> which expreſſion of an Heathen, doth bring to mind that Apoſtolical Exhortation,<note place="margin">1 Pet. 3.16.</note> 
+                  <hi>To have a good Conſcience, that whereas they speak evil of you, as of evil doers, they may be aſhamed that falſly accuſe your good converſation in Chriſt.</hi>
+               </p>
+               <p n="3">3. Art thou <hi>traduced</hi> by men? give the more diligence to attain and main<g ref="char:EOLhyphen"/>tain the clearneſs and ſtrength of a ſtate of <hi>juſtification</hi> before God, by an ope<g ref="char:EOLhyphen"/>rative faith in the rightouſneſs of Jeſus Chriſt.<note place="margin">Iſa. 50.3.</note> 
+                  <hi>If he be near to juſtifie thee, who can contend with thee?</hi>
+                  <note place="margin">Rom. 8.33.</note> 
+                  <hi>Who ſhall lay any thing to the charge of Gods elect? it is God that juſtifies.</hi>
+                  <note place="margin">Murus ahe<g ref="char:EOLhyphen"/>neus, Nil conſcire ſibi.</note> How big can an <hi>Horace,</hi> a <hi>Cicero,</hi> or a <hi>Seneca</hi> talk of the <hi>Bulwarks of innocence</hi> and clear conſcience. But ſaith a <hi>Paul</hi> that was, by a better light, more able to ſee through a ſelf-ſpun rightouſneſs,<note place="margin">1 Cor. 4.4</note> 
+                  <hi>I know nothing by my ſelf, yet am I not hereby juſtified.</hi> And there<g ref="char:EOLhyphen"/>fore,<note place="margin">Phil. 3.6, 8, 9.</note> though <hi>touching the rightouſneſs that was in the Law blameleſs, he accounts that but dung that he may win Chriſt, and be found in him, not having his own
+<pb n="81" facs="tcp:121166:42"/> rightouſneſs which is of the Law, but that which is through the faith of Chriſt, the rightouſneſs which is of God by faith.</hi> There are ſpecial promiſes that the faith of a juſtified perſon may improve againſt obloquies and calumniations,<note place="margin">Job 5.15, 16.</note> made by him <hi>that ſaveth the poor from the ſword, from their mouth and from the hand of the mighty: ſo that the poor hath hope, and in<g ref="char:EOLhyphen"/>iquity ſtoppeth her mouth.</hi>
+                  <note place="margin">Pſal. 31.22.</note> 
+                  <hi>Thou ſhalt keep them ſecretly in a pavilion from the ſtrife of tongues;</hi> and many others of like import.</p>
+               <p>Laſtly, Let all the <hi>barkings of dogs</hi> at thee, put thee more in remembrance that thou art a <hi>ſtranger on earth,</hi> and make thee long more to be <hi>at home,</hi> where as <hi>all tears ſhall be wiped from thine eyes:</hi> ſo ſhall <hi>all reproaches from thy name. Your Brethren that caſt you forth for my names ſake, ſaid, The Lord be glorified:</hi>
+                  <note place="margin">Iſaiah 66.5.</note> 
+                  <hi>but he ſhall appear to your joy, and they ſhall be aſhamed.</hi>
+               </p>
+               <trailer>FINITUR</trailer>
+               <closer>
+                  <date>
+                     <hi>Decemb.</hi> 1659.</date>
+               </closer>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="epigraph">
+            <pb facs="tcp:121166:43"/>
+            <l>The Weapon-ſalve if ever I allow,</l>
+            <l>It ſhall be now.</l>
+            <l>Gods good Word ſaith, that evil tongues are Swords,</l>
+            <l>Wounding by words:</l>
+            <l>Such weapons being well kept ſalv'd, ſuch wound</l>
+            <l>Will either ne'er be made, or ſoon made ſound.</l>
+            <pb facs="tcp:121166:43"/>
+         </div>
+      </back>
+   </text>
+</TEI>
